@@ -1,0 +1,101 @@
+== 30 Installing Ruby using Ruby Version Manager
+
+Ruby Version Manager allows multiple instances of Ruby to exist.  This greatly aids upgrading to newer versions of Ruby without breaking existing Ruby installations.
+
+=== 31 Curl needs a new cacert.pem file to work correctly
+
+  cd ~/code/source
+  mkdir curl-cacert
+  cd curl-cacert
+  wget http://curl.haxx.se/ca/cacert.pem
+  sudo cp /etc/pki/tls/certs/ca-bundle.crt /etc/pki/tls/certs/ca-bundle.crt.old
+  cat cacert.pem /etc/pki/tls/certs/ca-bundle.crt >> ca-bundle-new.crt
+  sudo cp ca-bundle-new.crt /etc/pki/tls/certs/ca-bundle.crt
+
+=== 32 Multi-User install for RVM
+
+  cd ~/code/source
+  sudo bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+
+  sudo vi /etc/group
+
+Find the group rvm at the bottom and add the appropriate users to the group, ex: user1 and user2 to rvm group
+
+Changed from:
+
+  rvm:x:20001:
+
+To
+
+  rvm:x:20001:user1,user2
+
+<b>Important! Logout and login again to reload bash shell!</b>
+
+Verify RVM version by typing <tt>rvm --version</tt> which should return
+
+  rvm 1.10.2
+
+Install RVM Dependencies (discover by typing: <tt>rvm requirements</tt>)
+
+<b>NOTE: For centos >= 5.4 iconv-devel is provided by glibc</b>
+
+Check which version of CentOS using:
+
+  cat /etc/redhat-release
+
+For CentOS < 5.4
+
+  sudo yum install -y gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison iconv-devel
+
+For CentOS >= 5.4, used this command for *railspro01*
+
+  sudo yum install -y gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison glibc
+
+
+=== 33 Install Ruby and Ruby Gems
+
+  rvm install 1.9.3
+
+Activate Ruby 1.9.3
+
+  rvm 1.9.3
+
+Verify Ruby version by typing <tt>ruby -v</tt> which should return:
+
+  ruby 1.9.3p0 (2011-10-30 revision 33570) [x86_64-linux]
+
+Update Ruby Gems and install Bundler, Rails, and Passenger
+
+  gem update --system
+  gem install bundler rails passenger
+
+=== 34 Install Phusion Passenger (Web server), used on *railspro01*
+
+  sudo yum install httpd-devel apr-devel apr-util-devel
+  passenger-install-apache2-module
+
+Or, if you want to install the Nginx version instead:
+
+  passenger-install-nginx-module
+
+Add the provided lines to <b>/etc/httpd/conf.d/rails.conf</b>
+
+  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p0/gems/passenger-3.0.11/ext/apache2/mod_passenger.so
+  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p0/gems/passenger-3.0.11
+  PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p0/ruby
+
+  PassengerMaxPoolSize 12
+  PassengerPoolIdleTime 3600
+
+  RackEnv production
+  PassengerHighPerformance on
+
+  <VirtualHost *:80>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://myexternalurl.com%{REQUEST_URI}
+  </VirtualHost>
+
+Restart Apache (or equivalent nginx command)
+
+  sudo service httpd restart
