@@ -5,22 +5,22 @@ The documentation provides a solution to serving production Ruby on Rails applic
 
 == Platforms (64-bit)
 
-  * CentOS
-  * Mac OS X
-  * Windows
+* CentOS
+* Mac OS X
+* Windows
 
 == Tools (cross-platform)
 
-  * Git
-  * Apache
-    * Passenger
-    * ProxyPass and load balancing
-  * Ruby
-    * Ruby Version Manager
-    * Ruby Installer and DevKit
-  * MySQL
-    * Compiling against the 32-bit connector
-  * Node.js and CoffeeScript
+* Git
+* Apache
+  * Passenger
+  * ProxyPass and load balancing
+* Ruby
+  * Ruby Version Manager
+  * Ruby Installer and DevKit
+* MySQL
+  * Compiling against the 32-bit connector
+* Node.js and CoffeeScript
 
 == Copyright
 
