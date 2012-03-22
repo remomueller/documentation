@@ -4,15 +4,7 @@ Ruby Version Manager allows multiple instances of Ruby to exist.  This greatly a
 
 === 31 Curl needs a new cacert.pem file to work correctly
 
-NOTE: Not necessary on Mac OS X, unless you run into problems in step 32.
-
-  cd ~/code/source
-  mkdir curl-cacert
-  cd curl-cacert
-  wget http://curl.haxx.se/ca/cacert.pem
-  sudo cp /etc/pki/tls/certs/ca-bundle.crt /etc/pki/tls/certs/ca-bundle.crt.old
-  cat cacert.pem /etc/pki/tls/certs/ca-bundle.crt >> ca-bundle-new.crt
-  sudo cp ca-bundle-new.crt /etc/pki/tls/certs/ca-bundle.crt
+NOTE: Not necessary on Mac OS X
 
 === 32 Multi-User install for RVM
 
