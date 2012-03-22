@@ -1,31 +1,3 @@
 == 90 Miscellaneous
 
-=== Checking and setting the hostname
-
-*railspro01* had the wrong hostname, _localhost_, after being rebooted.
-
-To check the hostname type:
-
-  hostname
-
-Which should return:
-
-  railsproXX.com
-
-To set the hostname type:
-
-  sudo hostname railsproXX.com
-
-If this does not work type:
-
-  sudo vi /etc/sysconfig/network
-
-And change the line that says:
-
-  HOSTNAME=./set_hostname.sh: line 14: dialog: command not found
-
-To
-
-  HOSTNAME=railsproXX.com
-
-
+Placeholder
