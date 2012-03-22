@@ -1,0 +1,91 @@
+== 30 Installing Ruby using Ruby Version Manager
+
+Ruby Version Manager allows multiple instances of Ruby to exist.  This greatly aids upgrading to newer versions of Ruby without breaking existing Ruby installations.
+
+=== 31 Curl needs a new cacert.pem file to work correctly
+
+NOTE: Not necessary on Mac OS X, unless you run into problems in step 32.
+
+  cd ~/code/source
+  mkdir curl-cacert
+  cd curl-cacert
+  wget http://curl.haxx.se/ca/cacert.pem
+  sudo cp /etc/pki/tls/certs/ca-bundle.crt /etc/pki/tls/certs/ca-bundle.crt.old
+  cat cacert.pem /etc/pki/tls/certs/ca-bundle.crt >> ca-bundle-new.crt
+  sudo cp ca-bundle-new.crt /etc/pki/tls/certs/ca-bundle.crt
+
+=== 32 Multi-User install for RVM
+
+  cd ~/code/source
+  sudo bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+
+  sudo vi /etc/group
+
+Find the group rvm at the bottom and add the appropriate users to the group, ex: user1 and user2 to rvm group
+
+Changed from:
+
+  rvm:x:20001:
+
+To
+
+  rvm:x:20001:user1,user2
+
+<b>Important! Logout and login again to reload bash shell!</b>
+
+Verify RVM version by typing <tt>rvm --version</tt> which should return
+
+  rvm 1.10.2
+
+Install RVM Dependencies (discover by typing: <tt>rvm requirements</tt>)
+
+Make sure you have the latest version of XCode installed. XCode 4.3.1 or greater for Lion
+
+  https://developer.apple.com/xcode/
+
+=== 33 Install Ruby and Ruby Gems
+
+  rvm install 1.9.3-p125
+
+Activate Ruby 1.9.3-p125
+
+  rvm 1.9.3-p125
+
+Verify Ruby version by typing <tt>ruby -v</tt> which should return:
+
+  ruby 1.9.3p125 (2012-02-16 revision 34643) [x86_64-darwin11.3.0]
+
+Update Ruby Gems and install Bundler, Rails, and Passenger
+
+  gem update --system
+  gem install bundler rails passenger
+
+=== 34 Install Phusion Passenger (Web server)
+
+  passenger-install-apache2-module
+
+Or, if you want to install the Nginx version instead:
+
+  passenger-install-nginx-module
+
+Add the provided lines to <b>/etc/apache2/other/rails.conf</b>
+
+  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p125/gems/passenger-3.0.11/ext/apache2/mod_passenger.so
+  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p125/gems/passenger-3.0.11
+  PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p125/ruby
+
+  PassengerMaxPoolSize 2
+  PassengerPoolIdleTime 360
+
+  RackEnv production
+  PassengerHighPerformance on
+
+  <VirtualHost *:80>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://myexternalurl.com%{REQUEST_URI}
+  </VirtualHost>
+
+Restart Apache (or equivalent nginx command)
+
+  sudo apachectl restart

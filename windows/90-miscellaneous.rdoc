@@ -1,0 +1,18 @@
+== 90 Miscellaneous
+
+== Install Windows Service on Windows 7 (64-bit)
+
+Based on information from: http://unicornless.com/systems-administration/run-thin-as-windows-service
+Installing as a service Windows 7 Instructions (modified from www.dixis.com/?p=140):
+Download and Install Resource Kit for Windows 2003
+
+  http://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd&displaylang=en
+
+
+== Running Server without Windows Service
+
+  rails s -e production
+
+or
+
+  thin start -p 3000 -e production

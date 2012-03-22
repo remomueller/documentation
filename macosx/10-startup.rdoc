@@ -1,0 +1,11 @@
+== 10 Startup Options
+
+=== 11 Configuring Apache For Automatic Startup
+
+To get Apache to start up when the machine is rebooted:
+
+  System Preferences => Sharing => Web Sharing (is checked)
+
+=== 12 Reboot, Rebooting, Restart, Restarting, Shut down, Shutting down Server
+
+  Apple Logo => Restart...

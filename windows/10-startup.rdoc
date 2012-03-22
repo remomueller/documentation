@@ -1,0 +1,3 @@
+== 10 Startup Options
+
+Placeholder, no Windows 7 startup options required at the moment. See 90-miscellaneous if you are looking to install as a Windows Service.

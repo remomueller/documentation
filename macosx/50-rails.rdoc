@@ -9,7 +9,14 @@
 
 === 52 Installing MySQL Library to allow compilation of mysql2 ruby gem
 
-  sudo yum install mysql mysql-devel
+Install the MySQL version appropriate for you.
+HIGHLY recommend using 5.1 and NOT 5.5, as 5.5 needs to be relinked everytime the mysql2 gem is reinstalled.
+
+  http://www.mysql.com/downloads/mysql/5.1.html#downloads
+
+Select <tt>Mac OS X ver. 10.6 (x86, 64-bit), DMG Archive</tt>
+
+  mysql-5.1.61-osx10.6-x86_64.dmg
 
 === 53 Install individual Ruby on Rails Applications
 

@@ -1,17 +1,16 @@
 == 50 Install Ruby on Rails Applications
 
-=== 51 Initialize Production Directory and Permissions
+To install Bundler go to command prompt and type
 
-  cd /usr/local
-  sudo mkdir production
-  sudo chgrp rvm production
-  sudo chmod 775 production
+  gem install bundler
 
-=== 52 Installing MySQL Library to allow compilation of mysql2 ruby gem
+Installing Rails and Thin explicitely (in case running "rails" or "thin" command shows as unrecognized command from command prompt)
 
-  sudo yum install mysql mysql-devel
+  gem install rails -v=3.2.2
 
-=== 53 Install individual Ruby on Rails Applications
+  gem install thin -v=1.3.1
+
+=== 59 Install individual Ruby on Rails Applications
 
 * {Hybrid}[https://github.com/remomueller/hybrid]
   * Sleep Portal code base

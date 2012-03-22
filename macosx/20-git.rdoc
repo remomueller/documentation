@@ -1,0 +1,22 @@
+== 20 Install Git
+
+Git is required for checking out projects from version control. Mac usually has git preinstalled, you can check if it exists by typing:
+
+  git --version
+
+  git version 1.7.9
+
+Install from source
+
+  cd ~/code/source
+  wget http://git-core.googlecode.com/files/git-1.7.9.tar.gz
+  tar xvzf git-1.7.9.tar.gz
+  rm git-1.7.9.tar.gz
+  cd git-*
+  ./configure
+  make
+  sudo make install
+
+Verify Git version by typing <tt>git --version</tt> which should return
+
+  git version 1.7.9
