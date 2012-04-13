@@ -4,14 +4,14 @@ Git is required for checking out projects from version control. Mac usually has 
 
   git --version
 
-  git version 1.7.9
+  git version 1.7.10
 
 Install from source
 
   cd ~/code/source
-  wget http://git-core.googlecode.com/files/git-1.7.9.tar.gz
-  tar xvzf git-1.7.9.tar.gz
-  rm git-1.7.9.tar.gz
+  wget http://git-core.googlecode.com/files/git-1.7.10.tar.gz
+  tar xvzf git-1.7.10.tar.gz
+  rm git-1.7.10.tar.gz
   cd git-*
   ./configure
   make
@@ -19,4 +19,4 @@ Install from source
 
 Verify Git version by typing <tt>git --version</tt> which should return
 
-  git version 1.7.9
+  git version 1.7.10
