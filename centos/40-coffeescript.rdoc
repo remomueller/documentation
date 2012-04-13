@@ -6,11 +6,11 @@ Tools required by server to compile CoffeeScript files into JavaScript
 Download and compile node.js and Node Package Manager
 
   cd ~/code/source
-  wget http://nodejs.org/dist/v0.6.10/node-v0.6.10.tar.gz
-  tar xzvf node-v0.6.10.tar.gz
-  rm node-v0.6.10.tar.gz
-  cd node-v0.6.10/
-  ./configure --prefix=/usr/local
+  wget http://nodejs.org/dist/v0.6.15/node-v0.6.15.tar.gz
+  tar xzvf node-v0.6.15.tar.gz
+  rm node-v0.6.15.tar.gz
+  cd node-v0.6.15/
+  ./configure
   make
   sudo make install
 
@@ -20,7 +20,7 @@ Verify Node.js installed by typing <tt>which node</tt> which should return:
 
 Verify Node.js version by typing <tt>node -v</tt> which should return:
 
-  v0.6.10
+  v0.6.15
 
 Verify npm installed by typing <tt>which npm</tt> which should return:
 
@@ -28,7 +28,7 @@ Verify npm installed by typing <tt>which npm</tt> which should return:
 
 Verify npm version by typing <tt>npm -v</tt> which should return:
 
-  1.1.0-3 (or higher)
+  1.1.16 (or higher)
 
 Make symbolic links for node and npm
 
@@ -47,4 +47,4 @@ Verify CoffeeScript installed by typing <tt>which coffee</tt> which should retur
 
 Verify CoffeeScript version by typing <tt>coffee -v</tt> which should return:
 
-  CoffeeScript version 1.2.0 (or higher)
+  CoffeeScript version 1.3.1 (or higher)
