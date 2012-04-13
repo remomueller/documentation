@@ -27,7 +27,7 @@ To
 
 Verify RVM version by typing <tt>rvm --version</tt> which should return
 
-  rvm 1.10.2
+  rvm 1.12.3
 
 Install RVM Dependencies (discover by typing: <tt>rvm requirements</tt>)
 
