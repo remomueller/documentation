@@ -173,14 +173,13 @@ From http://articles.slicehost.com/2009/2/2/centos-adding-an-nginx-init-script
   esac
 
 <tt>sudo chmod +x /etc/init.d/nginx</tt>
+
 <tt>sudo /sbin/chkconfig nginx on</tt>
 
 === Available nginx start and stop commands
 
-<tt>
   sudo service nginx stop
   sudo service nginx start
   sudo service nginx restart
   sudo service nginx status
   sudo service nginx configtest
-</tt>
