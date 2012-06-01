@@ -60,6 +60,10 @@ For CentOS >= 5.4, used this command for *railspro01*
 
   rvm install 1.9.3-p194
 
+Set default Ruby
+
+  rvm alias create default ruby-1.9.3-p194
+
 Activate Ruby 1.9.3-p194
 
   rvm 1.9.3-p194
