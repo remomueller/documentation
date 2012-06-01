@@ -58,15 +58,15 @@ For CentOS >= 5.4, used this command for *railspro01*
 
 === 33 Install Ruby and Ruby Gems
 
-  rvm install 1.9.3-p125
+  rvm install 1.9.3-p194
 
-Activate Ruby 1.9.3-p125
+Activate Ruby 1.9.3-p194
 
-  rvm 1.9.3-p125
+  rvm 1.9.3-p194
 
 Verify Ruby version by typing <tt>ruby -v</tt> which should return:
 
-  ruby 1.9.3p125 (2012-02-16 revision 34643) [x86_64-linux]
+  ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]
 
 Update Ruby Gems and install Bundler, Rails, and Passenger
 
@@ -90,9 +90,9 @@ Or, if you want to install the Nginx version instead:
 
 Add the provided lines to <b>/etc/httpd/conf.d/rails.conf</b>
 
-  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p125/gems/passenger-3.0.12/ext/apache2/mod_passenger.so
-  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p125/gems/passenger-3.0.12
-  PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p125/ruby
+  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12/ext/apache2/mod_passenger.so
+  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12
+  PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby
 
   PassengerMaxPoolSize 12
   PassengerPoolIdleTime 3600
@@ -110,8 +110,8 @@ Add the provided lines to <b>/etc/httpd/conf.d/rails.conf</b>
 Or in /usr/local/nginx/conf/nginx.conf
 
   http {
-    passenger_root /usr/local/rvm/gems/ruby-1.9.3-p125/gems/passenger-3.0.12;
-    passenger_ruby /usr/local/rvm/wrappers/ruby-1.9.3-p125/ruby;
+    passenger_root /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12;
+    passenger_ruby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby;
 
     server {
       listen      80;

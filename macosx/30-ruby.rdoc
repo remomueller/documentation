@@ -37,15 +37,15 @@ Make sure you have the latest version of XCode installed. XCode 4.3.1 or greater
 
 === 33 Install Ruby and Ruby Gems
 
-  rvm install 1.9.3-p125
+  rvm install 1.9.3-p194
 
-Activate Ruby 1.9.3-p125
+Activate Ruby 1.9.3-p194
 
-  rvm 1.9.3-p125
+  rvm 1.9.3-p194
 
 Verify Ruby version by typing <tt>ruby -v</tt> which should return:
 
-  ruby 1.9.3p125 (2012-02-16 revision 34643) [x86_64-darwin11.3.0]
+  ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]
 
 Update Ruby Gems and install Bundler, Rails, and Passenger
 
@@ -62,9 +62,9 @@ Or, if you want to install the Nginx version instead:
 
 Add the provided lines to <b>/etc/apache2/other/rails.conf</b>
 
-  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p125/gems/passenger-3.0.12/ext/apache2/mod_passenger.so
-  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p125/gems/passenger-3.0.12
-  PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p125/ruby
+  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12/ext/apache2/mod_passenger.so
+  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12
+  PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby
 
   PassengerMaxPoolSize 2
   PassengerPoolIdleTime 360
