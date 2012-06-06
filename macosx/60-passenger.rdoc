@@ -1,0 +1,3 @@
+== 60 Install Phusion Passenger
+
+  gem install passenger --no-ri --no-rdoc

@@ -1,0 +1,30 @@
+== 50 Install Ruby on Rails Applications
+
+=== 51 Initialize Production Directory and Permissions
+
+  cd /usr/local
+  sudo mkdir production
+  sudo chgrp rvm production
+  sudo chmod 775 production
+
+=== 52 Installing MySQL Library to allow compilation of mysql2 ruby gem
+
+Install the MySQL version appropriate for you.
+HIGHLY recommend using 5.1 and NOT 5.5, as 5.5 needs to be relinked everytime the mysql2 gem is reinstalled.
+
+  http://www.mysql.com/downloads/mysql/5.1.html#downloads
+
+Select <tt>Mac OS X ver. 10.6 (x86, 64-bit), DMG Archive</tt>
+
+  mysql-5.1.61-osx10.6-x86_64.dmg
+
+=== 53 Install individual Ruby on Rails Applications
+
+* {Hybrid}[https://github.com/remomueller/hybrid]
+  * Sleep Portal code base
+* {Notes}[https://github.com/remomueller/notes]
+  * Task Tracker code base
+* {Review}[https://github.com/remomueller/review]
+  * CHAT Publications code base
+* {Screen}[https://github.com/remomueller/screen]
+  * Screening application for clinical trials
