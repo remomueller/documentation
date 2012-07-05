@@ -43,3 +43,7 @@ Verify CoffeeScript installed by typing <tt>which coffee</tt> which should retur
 Verify CoffeeScript version by typing <tt>coffee -v</tt> which should return:
 
   CoffeeScript version 1.3.1 (or higher)
+
+=== Next Step
+
+{90 - Install Rails Applications}[https://github.com/remomueller/documentation/tree/master/macosx/90-install-rails-applications.rdoc]

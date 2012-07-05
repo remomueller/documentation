@@ -28,3 +28,7 @@ Select <tt>Mac OS X ver. 10.6 (x86, 64-bit), DMG Archive</tt>
   * CHAT Publications code base
 * {Screen}[https://github.com/remomueller/screen]
   * Screening application for clinical trials
+
+=== Next Step
+
+{99 - Miscellaneous}[https://github.com/remomueller/documentation/tree/master/macosx/99-miscellaneous.rdoc]

@@ -20,4 +20,4 @@ restart
 
 === Next Step
 
-{180 - Install CoffeeScript}[https://github.com/sleepepi/sleepepi/tree/master/virtual-machines/180-install-coffeescript.rdoc]
+{80 - Install CoffeeScript}[https://github.com/remomueller/documentation/tree/master/macosx/80-coffeescript.rdoc]

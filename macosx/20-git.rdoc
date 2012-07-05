@@ -20,3 +20,7 @@ Install from source
 Verify Git version by typing <tt>git --version</tt> which should return
 
   git version 1.7.10
+
+=== Next Step
+
+{30 - Install Ruby Version Manager}[https://github.com/remomueller/documentation/tree/master/macosx/30-rvm.rdoc]

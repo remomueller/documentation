@@ -21,3 +21,7 @@ Verify Ruby version
 === 42 Update Ruby Gems
 
   gem update --system
+
+=== Next Step
+
+{50 - Install Rails}[https://github.com/remomueller/documentation/tree/master/macosx/50-rails.rdoc]

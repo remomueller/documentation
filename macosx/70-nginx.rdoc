@@ -76,3 +76,7 @@ Add the provided lines to <b>/etc/apache2/other/rails.conf</b>
 Restart Apache (or equivalent nginx command)
 
   sudo apachectl restart
+
+=== Next Step
+
+{75 - Nginx Automatic Startup}[https://github.com/remomueller/documentation/tree/master/macosx/75-nginx-automatic-startup-configuration.rdoc]

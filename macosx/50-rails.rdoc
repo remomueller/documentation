@@ -3,3 +3,6 @@
   gem install bundler rails --no-ri --no-rdoc
 
 
+=== Next Step
+
+{60 - Install Passenger}[https://github.com/remomueller/documentation/tree/master/macosx/60-passenger.rdoc]

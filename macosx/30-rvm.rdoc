@@ -27,11 +27,28 @@ To
 
 Verify RVM version by typing <tt>rvm --version</tt> which should return
 
-  rvm 1.12.3
+  rvm 1.14.5
 
 Install RVM Dependencies (discover by typing: <tt>rvm requirements</tt>)
 
 Make sure you have the latest version of XCode installed. XCode 4.3.1 or greater for Lion
 
   https://developer.apple.com/xcode/
+
+
+=== 39 Upgrading Ruby Version Manager (optional)
+
+If you already have RVM installed, you can use the following steps to upgrade RVM.
+
+  rvmsudo rvm get stable
+
+  rvm reload
+
+Verify RVM version by typing <tt>rvm --version</tt> which should return
+
+  rvm 1.14.5
+
+=== Next Step
+
+{40 - Install Ruby}[https://github.com/remomueller/documentation/tree/master/macosx/40-ruby.rdoc]
 

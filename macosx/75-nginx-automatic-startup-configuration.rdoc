@@ -35,3 +35,9 @@ Based on: http://hunterford.me/nginx-startup-script-for-mac-os-x
 
   sudo launchctl load /Library/LaunchDaemons/org.nginx.nginx.plist
   sudo launchctl start org.nginx.nginx
+
+=== Next Step
+
+{79 - Nginx Commands}[https://github.com/remomueller/documentation/tree/master/macosx/79-nginx-commands.rdoc]
+{80 - Install CoffeeScript}[https://github.com/remomueller/documentation/tree/master/macosx/80-coffeescript.rdoc]
+
