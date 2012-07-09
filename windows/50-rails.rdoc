@@ -14,9 +14,9 @@ Installing Rails and Thin explicitely (in case running "rails" or "thin" command
 
 * {Hybrid}[https://github.com/remomueller/hybrid]
   * Sleep Portal code base
-* {Notes}[https://github.com/remomueller/notes]
-  * Task Tracker code base
 * {Review}[https://github.com/remomueller/review]
   * CHAT Publications code base
 * {Screen}[https://github.com/remomueller/screen]
   * Screening application for clinical trials
+* {Task Tracker}[https://github.com/remomueller/tasktracker]
+  * Task Tracker project management code base
