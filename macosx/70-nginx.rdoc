@@ -14,7 +14,7 @@ Nginx is a web router that is coupled with
 Edit <tt>sudo vi /usr/local/nginx/conf/nginx.conf</tt>
 
   http {
-    passenger_root /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12;
+    passenger_root /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.13;
     passenger_ruby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby;
 
     server {
@@ -57,8 +57,8 @@ Edit <tt>sudo vi /usr/local/nginx/conf/nginx.conf</tt>
 
 Add the provided lines to <b>/etc/apache2/other/rails.conf</b>
 
-  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12/ext/apache2/mod_passenger.so
-  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.12
+  LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.13/ext/apache2/mod_passenger.so
+  PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.13
   PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby
 
   PassengerMaxPoolSize 2
