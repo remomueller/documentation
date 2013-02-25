@@ -50,5 +50,5 @@ Verify RVM version by typing <tt>rvm --version</tt> which should return
 
 === Next Step
 
-{40 - Install Ruby}[https://github.com/remomueller/documentation/tree/master/macosx/40-ruby.rdoc]
+{40 - Install Ruby}[https://github.com/remomueller/documentation/tree/master/macosx/140-install-ruby.md]
 
