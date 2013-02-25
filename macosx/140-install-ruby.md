@@ -16,7 +16,7 @@ Verify Ruby version
 
   ruby -v
 
-  ruby 1.9.3p327 (2012-11-10 revision 37606) [x86_64-linux]
+  ruby 2.0.0p0 (2013-02-24 revision 39474) [x86_64-darwin12.2.0]
 
 Set default Ruby
 
