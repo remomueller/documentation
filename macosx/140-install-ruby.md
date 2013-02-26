@@ -4,9 +4,13 @@ Prerequisite: LibYAML may need to be installed, see [Pitfall 960](https://github
 
   rvm pkg install libyaml
 
+Prerequisite: OpenSSL is required
+
+  rvm --skip-autoreconf pkg install openssl
+
 ### 141 Install Ruby using RVM
 
-  CC=/usr/bin/clang rvm install 2.0.0-p0 --with-libyaml-dir=/usr/local/rvm/usr
+  CC=/usr/bin/clang rvm install 2.0.0-p0 --with-libyaml-dir=/usr/local/rvm/usr --with-openssl-dir=/usr/local/rvm/usr --verify-downloads 1
 
 Activate Ruby 2.0.0-p0
 
