@@ -1,6 +1,6 @@
 ## 140 Install Ruby
 
-Prerequisite: LibYAML may need to be installed, see [Pitfall 960](https://github.com/sleepepi/sleepepi/tree/master/virtual-machines/900-pitfalls.rdoc#960-ruby-missing-psych-libyaml)
+Prerequisite: LibYAML may need to be installed, see [Pitfall 960](https://github.com/sleepepi/sleepepi/tree/master/virtual-machines/900-pitfalls.md#960-ruby-missing-psych-libyaml)
 
 ```console
 rvm pkg install libyaml
