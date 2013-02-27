@@ -2,7 +2,9 @@
 
 Prerequisite: LibYAML may need to be installed, see [Pitfall 960](https://github.com/sleepepi/sleepepi/tree/master/virtual-machines/900-pitfalls.rdoc#960-ruby-missing-psych-libyaml)
 
-  rvm pkg install libyaml
+```console
+rvm pkg install libyaml
+```
 
 Prerequisite: OpenSSL is required
 
