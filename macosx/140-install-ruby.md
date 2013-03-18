@@ -1,21 +1,21 @@
 ## 140 Install Ruby
 
-Prerequisite: LibYAML may need to be installed, see [Pitfall 960](https://github.com/sleepepi/sleepepi/tree/master/virtual-machines/900-pitfalls.md#960-ruby-missing-psych-libyaml)
+Prerequisite: To compile Ruby 2.0.0-p0, Mac OS X 10.8.3+ and RVM 1.8.21+ are required.
+
+To update rvm:
 
 ```console
-rvm pkg install libyaml
-```
+curl -L get.rvm.io | bash -s head
 
-Prerequisite: OpenSSL is required
+or
 
-```console
-rvm --skip-autoreconf pkg install openssl
+rvm get head
 ```
 
 ### 141 Install Ruby using RVM
 
 ```console
-CC=/usr/bin/clang rvm install 2.0.0-p0 --with-libyaml-dir=/usr/local/rvm/usr --with-openssl-dir=/usr/local/rvm/usr --verify-downloads 1
+rvm install 2.0.0 --autolibs=3
 ```
 
 Activate Ruby 2.0.0-p0

@@ -1,12 +1,12 @@
 ## 100 Prerequisites
 Instructions for running on your Mac OS X box.
-Tested on Apple Lion 10.7.3 4GB
+Tested on Apple Mountain Lion 10.8.3 4GB
 
 Click Apple Logo in top left of screen and click **About This Mac**
 
 ```
 Mac OS X
-Version 10.7.3
+Version 10.8.3
 Proccessor 2.5 GHz Intel Core i5
 Memory 4GB 1333 MHz DDR3
 ```
@@ -27,7 +27,7 @@ mkdir ~/code/source
 
 ### 103 XCode
 
-Make sure you have the latest version of XCode installed. XCode 4.3.1 or greater for Lion
+Make sure you have the latest version of XCode installed. XCode 4.6.1 or greater for Mountain Lion
 
 [developer.apple.com/xcode](https://developer.apple.com/xcode)
 
