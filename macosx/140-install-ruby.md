@@ -15,7 +15,7 @@ rvm get head
 ### 141 Install Ruby using RVM
 
 ```console
-rvm install 2.0.0 --autolibs=3
+rvm install 2.0.0 --autolibs=3 --verify-downloads 1
 ```
 
 Activate Ruby 2.0.0-p0
