@@ -2,13 +2,13 @@
 
 To install Bundler go to command prompt and type
 
-  gem install bundler
+  gem install bundler --no-ri --no-rdoc
 
 Installing Rails and Thin explicitely (in case running "rails" or "thin" command shows as unrecognized command from command prompt)
 
-  gem install rails -v=3.2.2
+  gem install rails -v=3.2.13 --no-ri --no-rdoc
 
-  gem install thin -v=1.3.1
+  gem install thin -v=1.5.1 --no-ri --no-rdoc
 
 === 59 Install individual Ruby on Rails Applications
 
