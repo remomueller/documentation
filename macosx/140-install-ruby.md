@@ -48,4 +48,4 @@ gem update --system
 
 ### Next Step
 
-[50 - Install Rails](https://github.com/remomueller/documentation/tree/master/macosx/50-rails.rdoc)
+[150 - Install Rails](https://github.com/remomueller/documentation/tree/master/macosx/150-rails.md)
