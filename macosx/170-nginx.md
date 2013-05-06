@@ -1,4 +1,4 @@
-## 70 Install Nginx
+## 170 Install Nginx
 
 Nginx is a web router that is coupled with
 

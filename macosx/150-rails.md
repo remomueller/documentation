@@ -1,4 +1,4 @@
-## 50 Install Rails and Bundler
+## 150 Install Rails and Bundler
 
 ```console
 gem install bundler rails --no-ri --no-rdoc

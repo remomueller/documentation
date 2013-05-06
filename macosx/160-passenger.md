@@ -1,4 +1,4 @@
-## 60 Install Phusion Passenger
+## 160 Install Phusion Passenger
 
 ```console
 gem install passenger --no-ri --no-rdoc
