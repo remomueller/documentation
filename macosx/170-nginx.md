@@ -19,8 +19,8 @@ Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
 
 ```
 http {
-  passenger_root /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.13;
-  passenger_ruby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby;
+  passenger_root /usr/local/rvm/gems/ruby-2.0.0-p0/gems/passenger-4.0.1;
+  passenger_ruby /usr/local/rvm/wrappers/ruby-2.0.0-p0/ruby;
 
   # Allow for up to 10 megabyte uploads
   include       mime.types;
@@ -73,7 +73,9 @@ http {
 ```
 
 
-## 70.apache - Install Phusion Passenger (Web server) (if you don't want nginx, you can use apache instead)
+### 172 Apache - Install Phusion Passenger (Web server)
+
+If you don't want Nginx, you can use Apache instead
 
 ```
 passenger-install-apache2-module
