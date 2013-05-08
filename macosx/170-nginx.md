@@ -39,6 +39,9 @@ http {
   # Disable gzip for certain browsers.
   gzip_disable "MSIE [1-6].(?!.*SV1)";
 
+  # Stop server from announcing own details
+  server_tokens off;
+
   server {
     listen      80;
     server_name _;
