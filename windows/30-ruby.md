@@ -27,9 +27,9 @@ Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
 
 Install RubyInstaller and select
 
-  Add Ruby to Path
+- Add Ruby to Path
 
-  Associate .rb and .rbw files with Ruby
+- Associate .rb and .rbw files with Ruby
 
 Open Command Prompt and UPDATE RUBY GEMS and BUNDLER
 
