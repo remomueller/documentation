@@ -33,7 +33,7 @@ Install RubyInstaller and select
 
 Open Command Prompt and UPDATE RUBY GEMS and BUNDLER
 
-```console
+```
 gem update --system
 
 gem --version
@@ -56,7 +56,7 @@ Extract DevKit to `C:\DevKit` by double clicking the downloaded executable
 
 Initialize and install DevKit
 
-```console
+```
 cd C:\DevKit
 
 ruby dk.rb init
@@ -66,13 +66,13 @@ ruby dk.rb install
 
 To test installation
 
-```console
+```
 gem install rdiscount --platform=ruby
 ```
 
 You should see `Temporarily enhancing PATH to include DevKit`, type the following to confirm the gem works
 
-```console
+```
 ruby -rubygems -e "require 'rdiscount'; puts RDiscount.new('**Hello RubyInstaller**').to_html"
 ```
 
