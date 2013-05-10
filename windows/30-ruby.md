@@ -67,7 +67,7 @@ ruby dk.rb install
 To test installation
 
 ```
-gem install rdiscount --platform=ruby
+gem install rdiscount --platform=ruby --no-ri --no-rdoc
 ```
 
 You should see `Temporarily enhancing PATH to include DevKit`, type the following to confirm the gem works
