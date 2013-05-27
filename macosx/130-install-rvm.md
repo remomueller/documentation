@@ -49,7 +49,7 @@ Make sure you have the latest version of XCode installed. XCode 4.3.1 or greater
 If you already have RVM installed, you can use the following steps to upgrade RVM.
 
 ```
-rvmsudo rvm get stable
+rvm get stable
 
 rvm reload
 ```
