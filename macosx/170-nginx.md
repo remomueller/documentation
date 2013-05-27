@@ -1,18 +1,28 @@
 ## 170 Install Nginx
 
-Nginx is a web router that is coupled with
+These instructions detail a simple installation of nginx. If you want to include an additional security module, or wish to use an alternative version of nginx, you can follow the instructions provided in [171 - Install Nginx With Extra Modules](https://github.com/sleepepi/sleepepi/tree/master/virtual-machines/171-install-nginx-with-extra-modules.md) instead.
 
-```console
+### Start the Passenger installer
+
+```
 rvmsudo passenger-install-nginx-module
 ```
 
-`<enter>`
+Type `<enter>`
 
-```console
-Enter your choice (1 or 2) or press Ctrl-C to abort: 1
-
-Please specify a prefix directory [/opt/nginx]: /usr/local/nginx
 ```
+Enter your choice (1 or 2) or press Ctrl-C to abort: 1
+```
+
+Type `1`
+
+```
+Where do you want to install Nginx to?
+
+Please specify a prefix directory [/opt/nginx]:
+```
+
+Type `/usr/local/nginx`
 
 
 Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
@@ -112,4 +122,4 @@ sudo apachectl restart
 
 ### Next Step
 
-[75 - Nginx Automatic Startup](https://github.com/remomueller/documentation/tree/master/macosx/75-nginx-automatic-startup-configuration.rdoc)
+[175 - Nginx Automatic Startup](https://github.com/remomueller/documentation/tree/master/macosx/175-nginx-automatic-startup-configuration.md)

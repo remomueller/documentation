@@ -14,13 +14,13 @@ Memory 4GB 1333 MHz DDR3
 ### 101 Log in using SSH or Putty
 If you are logging into a remote Mac, use the following command from the terminal.
 
-```console
+```
 ssh user@railspro01
 ```
 
 ### 102 Create a Source Folder
 
-```console
+```
 mkdir ~/code
 mkdir ~/code/source
 ```

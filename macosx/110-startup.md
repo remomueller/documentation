@@ -16,7 +16,7 @@ System Preferences => Sharing => Web Sharing (is checked)
 Apple Logo => Restart...
 ```
 
-[Nginx Commands](https://github.com/remomueller/documentation/tree/master/macosx/79-nginx-commands.rdoc)
+[Nginx Commands](https://github.com/remomueller/documentation/tree/master/macosx/179-nginx-commands.md)
 
 ### Next Step
 

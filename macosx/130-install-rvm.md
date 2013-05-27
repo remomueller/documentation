@@ -8,7 +8,7 @@ NOTE: Not necessary on Mac OS X
 
 ### 132 Multi-User install for RVM
 
-```console
+```
 cd ~/code/source
 sudo bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
 
@@ -48,7 +48,7 @@ Make sure you have the latest version of XCode installed. XCode 4.3.1 or greater
 
 If you already have RVM installed, you can use the following steps to upgrade RVM.
 
-```console
+```
 rvmsudo rvm get stable
 
 rvm reload
