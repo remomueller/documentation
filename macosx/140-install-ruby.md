@@ -1,27 +1,27 @@
 ## 140 Install Ruby
 
-Prerequisite: To compile Ruby 2.0.0-p0, Mac OS X 10.8.3+ and RVM 1.8.21+ are required.
+Prerequisite: To compile Ruby 2.0.0-p195, Mac OS X 10.8.3+ and RVM 1.20.12+ are required.
 
 To update rvm:
 
 ```
-curl -L get.rvm.io | bash -s head
+\curl -L https://get.rvm.io | sudo bash -s stable
 
 or
 
-rvm get head
+rvm get stable
 ```
 
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.0.0 --autolibs=3 --verify-downloads 1
+rvm install 2.0.0-p195
 ```
 
-Activate Ruby 2.0.0-p0
+Activate Ruby 2.0.0-p195
 
 ```
-rvm 2.0.0-p0
+rvm 2.0.0-p195
 ```
 
 Verify Ruby version
@@ -31,13 +31,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.0.0p0 (2013-02-24 revision 39474) [x86_64-darwin12.2.0]
+ruby 2.0.0p195 (2013-05-14 revision 40734) [x86_64-darwin12.3.0]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.0.0-p0
+rvm alias create default ruby-2.0.0-p195
 ```
 
 ### 142 Update Ruby Gems

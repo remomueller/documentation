@@ -10,7 +10,7 @@ NOTE: Not necessary on Mac OS X
 
 ```
 cd ~/code/source
-sudo bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+\curl -L https://get.rvm.io | sudo bash -s stable
 
 sudo vi /etc/group
 ```
@@ -31,13 +31,17 @@ rvm:x:20001:user1,user2
 
 **Important! Logout and login again to reload bash shell!**
 
-Verify RVM version by typing `rvm --version` which should return
+Verify RVM version
 
-```
+Type `rvm --version`
+
+```console
 rvm 1.20.12 (stable)
 ```
 
-Install RVM Dependencies (discover by typing: `rvm requirements`)
+Install RVM Dependencies
+
+Type `rvm requirements`
 
 Make sure you have the latest version of XCode installed. XCode 4.6.2 or greater for Mountain Lion
 
