@@ -34,12 +34,12 @@ rvm:x:20001:user1,user2
 Verify RVM version by typing `rvm --version` which should return
 
 ```
-rvm 1.18.14 (stable)
+rvm 1.20.12 (stable)
 ```
 
 Install RVM Dependencies (discover by typing: `rvm requirements`)
 
-Make sure you have the latest version of XCode installed. XCode 4.3.1 or greater for Lion
+Make sure you have the latest version of XCode installed. XCode 4.6.2 or greater for Mountain Lion
 
 [developer.apple.com/xcode](https://developer.apple.com/xcode)
 
