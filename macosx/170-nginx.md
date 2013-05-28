@@ -11,7 +11,9 @@ rvmsudo passenger-install-nginx-module
 Type `<enter>`
 
 ```
-Enter your choice (1 or 2) or press Ctrl-C to abort: 1
+1. Yes: download, compile and install Nginx for me. (recommended)
+
+Enter your choice (1 or 2) or press Ctrl-C to abort:
 ```
 
 Type `1`
@@ -29,8 +31,8 @@ Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
 
 ```
 http {
-  passenger_root /usr/local/rvm/gems/ruby-2.0.0-p0/gems/passenger-4.0.2;
-  passenger_ruby /usr/local/rvm/wrappers/ruby-2.0.0-p0/ruby;
+  passenger_root /usr/local/rvm/gems/ruby-2.0.0-p195/gems/passenger-4.0.3;
+  passenger_ruby /usr/local/rvm/wrappers/ruby-2.0.0-p195/ruby;
 
   # Allow for up to 10 megabyte uploads
   include       mime.types;
