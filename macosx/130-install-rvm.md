@@ -36,7 +36,7 @@ Verify RVM version
 Type `rvm --version`
 
 ```console
-rvm 1.20.12 (stable)
+rvm 1.20.13 (stable)
 ```
 
 Install RVM Dependencies
