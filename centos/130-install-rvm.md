@@ -4,7 +4,7 @@ Ruby Version Manager allows multiple instances of Ruby to exist.  This greatly a
 
 ### 131 Curl needs a new cacert.pem file to work correctly (CentOS 5.7 only)
 
-```console
+```
 cd ~/code/source
 mkdir curl-cacert
 cd curl-cacert
@@ -16,7 +16,7 @@ sudo cp ca-bundle-new.crt /etc/pki/tls/certs/ca-bundle.crt
 
 ### 132 Multi-User install for RVM
 
-```console
+```
 cd ~/code/source
 \curl -L https://get.rvm.io | sudo bash -s stable
 
@@ -76,7 +76,7 @@ sudo rpm --import http://packages.atrpms.net/RPM-GPG-KEY.atrpms
 
 ### 139 Upgrading Existing RVM (optional)
 
-```console
+```
 rvm get stable
 
 rvm reload
@@ -84,4 +84,4 @@ rvm reload
 
 ### Next Step
 
-[150 - Install Rails](https://github.com/remomueller/documentation/tree/master/centos/150-rails.md)
+[140 - Install Ruby](https://github.com/remomueller/documentation/tree/master/centos/140-install-ruby.md)
