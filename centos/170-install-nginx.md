@@ -1,4 +1,4 @@
-## 170 Install Phusion Passenger (Web server), used on *railspro01*
+## 170 Install Phusion Passenger (Web server)
 
 **Apache**: Compile Apache Passenger module
 
