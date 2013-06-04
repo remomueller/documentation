@@ -1,4 +1,4 @@
-## 50 Install Ruby on Rails Applications
+## 150 Install Ruby on Rails Applications
 
 To install Bundler go to command prompt and type
 
@@ -14,7 +14,7 @@ gem install rails -v=3.2.13 --no-ri --no-rdoc
 gem install thin -v=1.5.1 --no-ri --no-rdoc
 ```
 
-### 59 Install individual Ruby on Rails Applications
+### 159 Install individual Ruby on Rails Applications
 
 - [Hybrid](https://github.com/remomueller/hybrid)
   - Sleep Portal code base
@@ -27,4 +27,4 @@ gem install thin -v=1.5.1 --no-ri --no-rdoc
 
 ### Run Into Errors?
 
-[90 - Miscellaneous](https://github.com/remomueller/documentation/tree/master/windows/90-miscellaneous.md)
+[190 - Miscellaneous](https://github.com/remomueller/documentation/tree/master/windows/190-miscellaneous.md)

@@ -1,8 +1,8 @@
-## 40 Install Node.js and CoffeeScript compiler
+## 140 Install Node.js and CoffeeScript compiler
 Tools required by server to compile CoffeeScript files into JavaScript
 
 NOTE: May not be required as ExecJS defaults to using Windows JavaScript compiler
 
 ### Next Step
 
-[50 - Install Rails](https://github.com/remomueller/documentation/tree/master/windows/50-rails.md)
+[150 - Install Rails](https://github.com/remomueller/documentation/tree/master/windows/150-rails.md)

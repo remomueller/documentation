@@ -1,4 +1,4 @@
-## 90 Miscellaneous
+## 190 Miscellaneous
 
 #### Install Windows Service on Windows 7 (64-bit)
 
@@ -22,7 +22,7 @@ thin start -p 3000 -e production
 
 
 
-### 91 Bcrypt-Ruby Error
+### 191 Bcrypt-Ruby Error
 
 If you get the warning `cannot load such file -- 2.0/bcrypt_ext` when running `bundle exec rake`, then you need to reinstall bcrypt-ruby
 

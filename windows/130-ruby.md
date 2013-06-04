@@ -1,4 +1,4 @@
-## 30 Installing Ruby and DevKit on Windows 7
+## 130 Installing Ruby and DevKit on Windows 7
 
 
 ### 64bit Windows 7
@@ -78,4 +78,4 @@ ruby -rubygems -e "require 'rdiscount'; puts RDiscount.new('**Hello RubyInstalle
 
 ### Next Step
 
-[35 - Install MySQL](https://github.com/remomueller/documentation/tree/master/windows/35-mysql.md)
+[135 - Install MySQL](https://github.com/remomueller/documentation/tree/master/windows/135-mysql.md)

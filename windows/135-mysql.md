@@ -1,4 +1,4 @@
-## 35 Installing MySQL on Windows 7
+## 135 Installing MySQL on Windows 7
 
 ### 64bit Windows 7
 
@@ -40,4 +40,4 @@ copy C:\mysql-connector-c-noinstall-6.0.2-win32\lib\libmysql.dll C:\Ruby200\bin\
 
 ### Next Step
 
-[40 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/windows/40-coffeescript.md)
+[140 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/windows/140-coffeescript.md)
