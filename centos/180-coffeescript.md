@@ -47,7 +47,7 @@ sudo ln -s /usr/local/bin/node /usr/bin/node
 sudo ln -s /usr/local/bin/npm /usr/bin/npm
 ```
 
-### 142 CoffeeScript
+### 182 CoffeeScript
 
 Download and compile CoffeeScript
 
