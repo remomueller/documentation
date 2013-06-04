@@ -1,6 +1,6 @@
-## 150 Install Ruby on Rails Applications
+## 190 Install Ruby on Rails Applications
 
-### 151 Initialize Production Directory and Permissions
+### 191 Initialize Production Directory and Permissions
 
 ```
 cd /usr/local
@@ -9,19 +9,19 @@ sudo chgrp rvm production
 sudo chmod 775 production
 ```
 
-### 152 Installing MySQL Library to allow compilation of mysql2 ruby gem
+### 192 Installing MySQL Library to allow compilation of mysql2 ruby gem
 
 ```
 sudo yum install mysql mysql-devel
 ```
 
-### 153 Installing libraries to allow compilation of nokogiri gem
+### 193 Installing libraries to allow compilation of nokogiri gem
 
 ```
 sudo yum install libxml libxml-devel libxslt libxslt-devel
 ```
 
-### 159 Install individual Ruby on Rails Applications
+### 194 Install individual Ruby on Rails Applications
 
 - [Hybrid](https://github.com/sleepepi/hybrid)
   - Sleep Portal code base
@@ -31,3 +31,8 @@ sudo yum install libxml libxml-devel libxslt libxslt-devel
   - Screening application for clinical trials
 - [Task Tracker](https://github.com/remomueller/tasktracker)
   - Task Tracker project management code base
+
+
+### Next Step
+
+[199 - Miscellaneous](https://github.com/remomueller/documentation/tree/master/centos/199-miscellaneous.md)

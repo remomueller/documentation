@@ -22,7 +22,7 @@ Select `Mac OS X ver. 10.6 (x86, 64-bit), DMG Archive`
 
 ### 193 Install individual Ruby on Rails Applications
 
-- [Hybrid](https://github.com/remomueller/hybrid)
+- [Hybrid](https://github.com/sleepepi/hybrid)
   - Sleep Portal code base
 - [Review](https://github.com/remomueller/review)
   - CHAT Publications code base

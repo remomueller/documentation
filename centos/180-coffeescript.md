@@ -1,7 +1,7 @@
-## 140 Install Node.js and CoffeeScript compiler
+## 180 Install Node.js and CoffeeScript compiler
 Tools required by server to compile CoffeeScript files into JavaScript
 
-### 141 Node.js and Node Package Manager
+### 181 Node.js and Node Package Manager
 
 Download and compile node.js and Node Package Manager
 
@@ -66,3 +66,7 @@ Verify CoffeeScript version by typing `coffee -v` which should return:
 ```console
 CoffeeScript version 1.3.1 (or higher)
 ```
+
+### Next Step
+
+[190 - Install Rails Applications](https://github.com/remomueller/documentation/tree/master/centos/190-install-rails-applications.md)
