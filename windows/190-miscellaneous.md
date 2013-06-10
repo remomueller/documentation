@@ -33,7 +33,7 @@ gem install bcrypt-ruby --platform=ruby --no-ri --no-rdoc
 ```
 
 
-### 192 MySQL gem Error
+### 192 MySQL Gem Error
 
 If you get the warning `cannot load such file -- mysql2/2.0/mysql2` when running `bundle exec rake` or `thin start`, then you need to reinstall mysql2
 
