@@ -10,13 +10,13 @@ Download and Install Windows Server 2003 Resource Kit Tools
 
 #### Running Server without Windows Service
 
-```console
+```
 rails s -e production
 ```
 
 or
 
-```console
+```
 thin start -p 3000 -e production
 ```
 
@@ -26,9 +26,21 @@ thin start -p 3000 -e production
 
 If you get the warning `cannot load such file -- 2.0/bcrypt_ext` when running `bundle exec rake`, then you need to reinstall bcrypt-ruby
 
-```console
+```
 gem uninstall bcrypt-ruby
 
 gem install bcrypt-ruby --platform=ruby --no-ri --no-rdoc
 ```
 
+
+### 192 MySQL gem Error
+
+If you get the warning `cannot load such file -- mysql2/2.0/mysql2` when running `bundle exec rake` or `thin start`, then you need to reinstall mysql2
+
+```
+gem uninstall mysql2
+
+# Make sure you select "All versions", especially if you have `mysql2-x.x.x-x86-mingw32` and `mysql2-x.x.x` gems installed!
+```
+
+Then reinstall as per the directions in [135 - Install MySQL](https://github.com/remomueller/documentation/tree/master/windows/135-mysql.md)
