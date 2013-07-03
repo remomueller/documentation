@@ -12,16 +12,22 @@ or
 rvm get stable
 ```
 
+Install requirements
+
+```
+rvm requirements
+```
+
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.0.0-p195
+rvm install 2.0.0-p247
 ```
 
-Activate Ruby 2.0.0-p195
+Activate Ruby 2.0.0-p247
 
 ```
-rvm 2.0.0-p195
+rvm 2.0.0-p247
 ```
 
 Verify Ruby version
@@ -31,13 +37,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.0.0p195 (2013-05-14 revision 40734) [x86_64-darwin12.3.0]
+ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin12.4.0]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.0.0-p195
+rvm alias create default ruby-2.0.0-p247
 ```
 
 ### 142 Update Ruby Gems
