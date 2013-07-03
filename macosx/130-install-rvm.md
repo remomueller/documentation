@@ -36,14 +36,14 @@ Verify RVM version
 Type `rvm --version`
 
 ```console
-rvm 1.20.13 (stable)
+rvm 1.21.5 (stable)
 ```
 
 Install RVM Dependencies
 
 Type `rvm requirements`
 
-Make sure you have the latest version of XCode installed. XCode 4.6.2 or greater for Mountain Lion
+Make sure you have the latest version of XCode installed. XCode 4.6.3 or greater for Mountain Lion
 
 [developer.apple.com/xcode](https://developer.apple.com/xcode)
 
