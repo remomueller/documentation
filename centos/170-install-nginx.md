@@ -34,8 +34,8 @@ Type `/usr/local/nginx`
 **Apache**: Edit `sudo vi /etc/httpd/conf.d/rails.conf`
 
 ```
-LoadModule passenger_module /usr/local/rvm/gems/ruby-2.0.0-p195/gems/passenger-4.0.5/ext/apache2/mod_passenger.so
-PassengerRoot /usr/local/rvm/gems/ruby-2.0.0-p195/gems/passenger-4.0.5
+LoadModule passenger_module /usr/local/rvm/gems/ruby-2.0.0-p195/gems/passenger-4.0.7/ext/apache2/mod_passenger.so
+PassengerRoot /usr/local/rvm/gems/ruby-2.0.0-p195/gems/passenger-4.0.7
 PassengerRuby /usr/local/rvm/wrappers/ruby-2.0.0-p195/ruby
 
 PassengerMaxPoolSize 12
@@ -56,7 +56,7 @@ PassengerHighPerformance on
 
 ```
 http {
-  passenger_root /usr/local/rvm/gems/ruby-2.0.0-p195/gems/passenger-4.0.5;
+  passenger_root /usr/local/rvm/gems/ruby-2.0.0-p195/gems/passenger-4.0.7;
   passenger_ruby /usr/local/rvm/wrappers/ruby-2.0.0-p195/ruby;
 
   # Allow for up to 10 megabyte uploads
