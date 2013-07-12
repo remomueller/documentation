@@ -9,9 +9,9 @@ gem install bundler --no-ri --no-rdoc
 Installing Rails and Thin explicitely (in case running `rails` or `thin` command shows as unrecognized command from command prompt)
 
 ```console
-gem install rails -v=3.2.13 --no-ri --no-rdoc
+gem install rails --no-ri --no-rdoc
 
-gem install thin -v=1.5.1 --no-ri --no-rdoc
+gem install thin --no-ri --no-rdoc
 ```
 
 ### 159 Install individual Ruby on Rails Applications
