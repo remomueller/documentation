@@ -42,7 +42,7 @@ rvm:x:20001:user1,user2
 Verify RVM version by typing `rvm --version` which should return
 
 ```console
-rvm 1.20.13 (stable)
+rvm 1.21.7 (stable)
 ```
 
 Install RVM Dependencies (discover by typing: `rvm requirements`)

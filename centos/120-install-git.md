@@ -3,21 +3,21 @@
 Git is required for checking out projects from version control.
 
 ```
-sudo yum -y install zlib-devel openssl-devel cpio expat-devel gettext-devel gcc perl-ExtUtils-MakeMaker
+sudo yum -y install zlib-devel openssl-devel cpio expat-devel gettext-devel perl-devel
 ```
 
 Install from source
 
 ```
 cd ~/code/source
-wget http://git-core.googlecode.com/files/git-1.7.10.tar.gz
-tar xvzf git-1.7.10.tar.gz
-rm git-1.7.10.tar.gz
+curl http://git-core.googlecode.com/files/git-1.8.1.1.tar.gz | tar xvz
 cd git-*
 ./configure
 make
 sudo make install
 ```
+
+**Important! Logout and login again to reload bash shell!**
 
 Verify Git version by typing
 
@@ -28,7 +28,7 @@ git --version
 Should return:
 
 ```console
-git version 1.7.10
+git version 1.8.1.1
 ```
 
 ### Next Step
