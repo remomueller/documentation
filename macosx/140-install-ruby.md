@@ -1,6 +1,6 @@
 ## 140 Install Ruby
 
-Prerequisite: To compile Ruby 2.0.0-p195, Mac OS X 10.8.3+ and RVM 1.20.12+ are required.
+Prerequisite: To compile Ruby 2.0.0-p247, Mac OS X 10.8.3+ and RVM 1.20.12+ are required.
 
 To update rvm:
 
