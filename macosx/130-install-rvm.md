@@ -11,22 +11,6 @@ NOTE: Not necessary on Mac OS X
 ```
 cd ~/code/source
 \curl -L https://get.rvm.io | sudo bash -s stable
-
-sudo vi /etc/group
-```
-
-Find the group rvm at the bottom and add the appropriate users to the group, ex: user1 and user2 to rvm group
-
-Changed from:
-
-```
-rvm:x:20001:
-```
-
-To
-
-```
-rvm:x:20001:user1,user2
 ```
 
 **Important! Logout and login again to reload bash shell!**
@@ -41,7 +25,7 @@ rvm 1.21.5 (stable)
 
 Install RVM Dependencies
 
-Type `rvm requirements`
+Type `rvm requirements`, may require `rvmsudo rvm requirements`
 
 Make sure you have the latest version of XCode installed. XCode 4.6.3 or greater for Mountain Lion
 
