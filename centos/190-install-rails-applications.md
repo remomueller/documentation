@@ -23,7 +23,7 @@ sudo yum install libxml libxml-devel libxslt libxslt-devel
 
 ### 194 Install individual Ruby on Rails Applications
 
-- [Hybrid](https://github.com/sleepepi/hybrid)
+- [Sleep Portal](https://github.com/sleepepi/sleepportal)
   - Sleep Portal code base
 - [Review](https://github.com/remomueller/review)
   - CHAT Publications code base

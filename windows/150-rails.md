@@ -16,7 +16,7 @@ gem install thin --no-ri --no-rdoc
 
 ### 159 Install individual Ruby on Rails Applications
 
-- [Hybrid](https://github.com/sleepepi/hybrid)
+- [Sleep Portal](https://github.com/sleepepi/sleepportal)
   - Sleep Portal code base
 - [Review](https://github.com/remomueller/review)
   - CHAT Publications code base
