@@ -4,7 +4,7 @@ This document describes how to install nginx with extra modules in case the simp
 
 Specifically, `headers-more-nginx-module` will be installed in order to remove server and x-powered-by headers for better security using `more_clear_headers`.
 
-SPDY will also be installed.
+[SPDY](http://en.wikipedia.org/wiki/SPDY) will be installed in order to compress HTTP headers and decrease web page load latency.
 
 
 ### Compiling OpenSSL 1.0.1+ requirement for SPDY
