@@ -4,7 +4,7 @@ This document describes how to install nginx with extra modules in case the simp
 
 Specifically, `headers-more-nginx-module` will be installed in order to remove server and x-powered-by headers for better security using `more_clear_headers`.
 
-[SPDY](http://en.wikipedia.org/wiki/SPDY) will be installed in order to compress HTTP headers and decrease web page load latency.
+[SPDY](http://en.wikipedia.org/wiki/SPDY) will be installed in order to compress HTTP headers and decrease web page load.
 
 
 ### Compiling OpenSSL 1.0.1+ requirement for SPDY
@@ -83,7 +83,10 @@ If you specify nothing then the 'configure' script will be run as follows:
 Extra arguments to pass to configure script:
 ```
 
-Type `--with-http_spdy_module --with-cc-opt=-I/usr/local/include --with-ld-opt=-L/usr/local/lib --add-module=/tmp/nginxplus/headers-more-nginx-module-0.20`
+Type
+```
+--with-http_spdy_module --with-cc-opt=-I/usr/local/include --with-ld-opt=-L/usr/local/lib --add-module=/tmp/nginxplus/headers-more-nginx-module-0.20
+```
 
 ```console
 Confirm configure flags
