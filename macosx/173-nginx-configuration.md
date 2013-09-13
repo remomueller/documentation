@@ -4,7 +4,7 @@ Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
 
 ```
 http {
-  passenger_root /usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.8;
+  passenger_root /usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.17;
   passenger_ruby /usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby;
 
   # Allow for up to 10 megabyte uploads
@@ -40,6 +40,10 @@ http {
 
   server {
     listen      443;
+    # # Enable SPDY support, only available with extra module installed!
+    # # https://github.com/remomueller/documentation/tree/master/macosx/171-install-nginx-with-extra-modules.md
+    # listen 443 ssl spdy;
+
     server_name _;
 
     ssl                  on;

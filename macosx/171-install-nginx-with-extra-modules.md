@@ -4,6 +4,24 @@ This document describes how to install nginx with extra modules in case the simp
 
 Specifically, `headers-more-nginx-module` will be installed in order to remove server and x-powered-by headers for better security using `more_clear_headers`.
 
+SPDY will also be installed.
+
+
+### Compiling OpenSSL 1.0.1+ requirement for SPDY
+
+Install openssl 1.0.1.e on Mac
+
+```
+cd ~/code/source
+wget -O openssl.tar.gz http://www.openssl.org/source/openssl-1.0.1e.tar.gz
+tar xvzf openssl.tar.gz
+rm openssl.tar.gz
+cd openssl-1.0.1e
+./Configure darwin64-x86_64-cc --prefix=/usr/local no-threads shared
+make
+sudo make install
+```
+
 ### Download nginx source code
 
 ```
@@ -60,19 +78,19 @@ please specify them. If not, then specify nothing and press Enter.
 
 If you specify nothing then the 'configure' script will be run as follows:
 
-  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/root-passenger-5898/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.14/ext/nginx'
+  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/root-passenger-5898/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.17/ext/nginx'
 
 Extra arguments to pass to configure script:
 ```
 
-Type `--add-module=/tmp/nginxplus/headers-more-nginx-module-0.20`
+Type `--with-http_spdy_module --with-cc-opt=-I/usr/local/include --with-ld-opt=-L/usr/local/lib --add-module=/tmp/nginxplus/headers-more-nginx-module-0.20`
 
 ```console
 Confirm configure flags
 
 The Nginx configure script will be run as follows:
 
-  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/root-passenger-5898/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.14/ext/nginx' --add-module=/tmp/nginxplus/headers-more-nginx-module-0.20
+  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/root-passenger-5898/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.17/ext/nginx' --with-http_spdy_module --with-cc-opt=-I/usr/local/include --with-ld-opt=-L/usr/local/lib --add-module=/tmp/nginxplus/headers-more-nginx-module-0.20
 
 Is this what you want? (yes/no) [default=yes]:
 ```
