@@ -1,31 +1,4 @@
-## 170 Install Nginx
-
-These instructions detail a simple installation of nginx. If you want to include an additional security module, or wish to use an alternative version of nginx, you can follow the instructions provided in [171 - Install Nginx With Extra Modules](https://github.com/sleepepi/sleepepi/tree/master/virtual-machines/171-install-nginx-with-extra-modules.md) instead.
-
-### Start the Passenger installer
-
-```
-rvmsudo passenger-install-nginx-module
-```
-
-Type `<enter>`
-
-```
-1. Yes: download, compile and install Nginx for me. (recommended)
-
-Enter your choice (1 or 2) or press Ctrl-C to abort:
-```
-
-Type `1`
-
-```
-Where do you want to install Nginx to?
-
-Please specify a prefix directory [/opt/nginx]:
-```
-
-Type `/usr/local/nginx`
-
+## 173 Nginx Configuration
 
 Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
 
@@ -53,11 +26,16 @@ http {
 
   # Stop server from announcing own details
   server_tokens off;
+  # # Stop server from announcing additional headers, only available with extra module installed!
+  # # https://github.com/remomueller/documentation/tree/master/macosx/171-install-nginx-with-extra-modules.md
+  # more_clear_headers 'Server';
+  # more_clear_headers 'X-Powered-By';
+  # more_clear_headers 'X-Runtime';
 
   server {
     listen      80;
     server_name _;
-    rewrite     ^(.*)   https://epiproXX.dipr.partners.org$1 permanent;
+    rewrite     ^(.*)   https://MYDOMAIN.COM$1 permanent;
   }
 
   server {
@@ -85,41 +63,6 @@ http {
     # passenger_base_uri /rails_app2;
   }
 }
-```
-
-
-### 172 Apache - Install Phusion Passenger (Web server)
-
-If you don't want Nginx, you can use Apache instead
-
-```
-passenger-install-apache2-module
-```
-
-Add the provided lines to `/etc/apache2/other/rails.conf`
-
-```
-LoadModule passenger_module /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.13/ext/apache2/mod_passenger.so
-PassengerRoot /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.13
-PassengerRuby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby
-
-PassengerMaxPoolSize 2
-PassengerPoolIdleTime 360
-
-RackEnv production
-PassengerHighPerformance on
-
-<VirtualHost *:80>
-  RewriteEngine On
-  RewriteCond %{HTTPS} off
-  RewriteRule (.*) https://myexternalurl.com%{REQUEST_URI}
-</VirtualHost>
-```
-
-Restart Apache (or equivalent nginx command)
-
-```console
-sudo apachectl restart
 ```
 
 ### Next Step
