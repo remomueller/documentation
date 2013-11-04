@@ -33,6 +33,14 @@ Make sure you have the latest version of XCode installed. XCode 4.6.3 or greater
 
 Once XCode is installed, open up XCode, go to `Preferences`, then select `Downloads`, and `Install Command Line Tools`.
 
+In OS X Mavericks, installing Command Line Tools is slightly different.
+
+Open Terminal and type:
+
+```
+xcode-select --install
+```
+
 ### Next Step
 
 [110 - Startup](https://github.com/remomueller/documentation/tree/master/macosx/110-startup.md)
