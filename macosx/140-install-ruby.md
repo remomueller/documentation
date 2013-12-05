@@ -1,6 +1,6 @@
 ## 140 Install Ruby
 
-Prerequisite: To compile Ruby 2.0.0-p247, Mac OS X 10.8.3+ and RVM 1.20.12+ are required.
+Make sure you followed [100 - Prerequisites](https://github.com/remomueller/documentation/tree/master/macosx/100-prerequisites.md) to successfully install Ruby
 
 To update rvm:
 
@@ -21,13 +21,13 @@ rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.0.0-p247
+rvm install 2.0.0-p353
 ```
 
-Activate Ruby 2.0.0-p247
+Activate Ruby 2.0.0-p353
 
 ```
-rvm 2.0.0-p247
+rvm 2.0.0-p353
 ```
 
 Verify Ruby version
@@ -37,13 +37,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin12.4.0]
+ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin13.0.0]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.0.0-p247
+rvm alias create default ruby-2.0.0-p353
 ```
 
 ### 142 Update Ruby Gems

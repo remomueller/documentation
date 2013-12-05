@@ -1,12 +1,12 @@
 ## 100 Prerequisites
 Instructions for running on your Mac OS X box.
-Tested on Apple Mountain Lion 10.8.4 4GB
+Tested on Apple Mountain Lion 10.8.4 and Apple Mavericks 10.9
 
 Click Apple Logo in top left of screen and click **About This Mac**
 
 ```
 Mac OS X
-Version 10.8.4
+Version 10.9
 Proccessor 2.5 GHz Intel Core i5
 Memory 4GB 1333 MHz DDR3
 ```
@@ -27,19 +27,22 @@ mkdir ~/code/source
 
 ### 103 XCode
 
-Make sure you have the latest version of XCode installed. XCode 4.6.3 or greater for Mountain Lion
+Make sure you have the latest version of XCode installed. XCode 5.0.2 or greater for Mavericks, XCode 4.6.3 or greater for Mountain Lion
 
 [developer.apple.com/xcode](https://developer.apple.com/xcode)
 
-Once XCode is installed, open up XCode, go to `Preferences`, then select `Downloads`, and `Install Command Line Tools`.
-
-In OS X Mavericks, installing Command Line Tools is slightly different.
+#### Mavericks - Install Command Line Tools
 
 Open Terminal and type:
 
 ```
 xcode-select --install
 ```
+
+#### Mountain Lion - Install Command Line Tools
+
+Open XCode, go to `Preferences`, then select `Downloads`, and `Install Command Line Tools`.
+
 
 ### Next Step
 

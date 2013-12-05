@@ -29,11 +29,11 @@ cd /tmp
 mkdir nginxplus
 cd /tmp/nginxplus
 
-wget -O nginx.tar.gz http://www.nginx.org/download/nginx-1.4.2.tar.gz
+wget -O nginx.tar.gz http://www.nginx.org/download/nginx-1.4.4.tar.gz
 tar xzvf nginx.tar.gz
 rm nginx.tar.gz
 
-wget -O headers-more-nginx-module.tar.gz https://github.com/agentzh/headers-more-nginx-module/archive/v0.20.tar.gz
+wget -O headers-more-nginx-module.tar.gz https://github.com/agentzh/headers-more-nginx-module/archive/v0.20.tar.gz --no-check-certificate
 tar xzvf headers-more-nginx-module.tar.gz
 rm headers-more-nginx-module.tar.gz
 ```
@@ -60,7 +60,7 @@ Where is your Nginx source code located?
 Please specify the directory:
 ```
 
-Type `/tmp/nginxplus/nginx-1.4.2`
+Type `/tmp/nginxplus/nginx-1.4.4`
 
 ```console
 Where do you want to install Nginx to?
@@ -78,7 +78,7 @@ please specify them. If not, then specify nothing and press Enter.
 
 If you specify nothing then the 'configure' script will be run as follows:
 
-  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/root-passenger-5898/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.20/ext/nginx'
+  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/passenger.s9juv3/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p353/gems/passenger-4.0.27/ext/nginx'
 
 Extra arguments to pass to configure script:
 ```
@@ -93,7 +93,7 @@ Confirm configure flags
 
 The Nginx configure script will be run as follows:
 
-  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/root-passenger-5898/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.20/ext/nginx' --with-http_spdy_module --with-cc-opt=-I/usr/local/include --with-ld-opt=-L/usr/local/lib --add-module=/tmp/nginxplus/headers-more-nginx-module-0.20
+  sh ./configure --prefix='/usr/local/nginx' --with-http_ssl_module --with-http_gzip_static_module --with-http_stub_status_module --with-cc-opt='-Wno-error' --with-pcre='/tmp/passenger.s9juv3/pcre-8.32' --add-module='/usr/local/rvm/gems/ruby-2.0.0-p353/gems/passenger-4.0.27/ext/nginx' --with-http_spdy_module --with-cc-opt=-I/usr/local/include --with-ld-opt=-L/usr/local/lib --add-module=/tmp/nginxplus/headers-more-nginx-module-0.20
 
 Is this what you want? (yes/no) [default=yes]:
 ```
