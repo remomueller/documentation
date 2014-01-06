@@ -24,4 +24,4 @@ The documentation provides a solution to serving production Ruby on Rails applic
 
 ## Copyright
 
-Copyright (c) 2013 Remo Mueller. See [LICENSE](https://github.com/remomueller/documentation/blob/master/LICENSE) for further details.
+Copyright (c) 2014 Remo Mueller. See [LICENSE](https://github.com/remomueller/documentation/blob/master/LICENSE) for further details.
