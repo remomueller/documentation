@@ -4,9 +4,9 @@
 
 ```
 Installing pg (0.17.0)
-Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
 
-    /usr/local/rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb
+    /usr/local/rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb
 checking for pg_config... no
 No pg_config... trying anyway. If building fails, please try again with
  --with-pg-config=/path/to/pg_config
