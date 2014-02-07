@@ -3,24 +3,23 @@
 
 ### 64bit Windows 7
 
-Download Ruby 2.0.0-p247 from http://rubyinstaller.org/downloads/
+Download Ruby 2.0.0-p353 from http://rubyinstaller.org/downloads/
 
-  [Ruby 2.0.0-p247 (x64)](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p247-x64.exe?direct)
+  [Ruby 2.0.0-p353 (x64)](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353-x64.exe?direct)
 
 Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
-
-  [Development Kit 4.7.2 (x64)](http://rubyforge.org/frs/download.php/76808/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)
-
+                                
+  [Development Kit 4.7.2 (x64)](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)
 
 ### 32bit Windows 7
 
-Download Ruby 2.0.0-p0 from http://rubyinstaller.org/downloads/
+Download Ruby 2.0.0-p353 from http://rubyinstaller.org/downloads/
 
-  [Ruby 2.0.0-p247](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p247.exe?direct)
+  [Ruby 2.0.0-p353](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353.exe?direct)
 
 Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
 
-  [Development Kit 4.7.2](http://rubyforge.org/frs/download.php/76805/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe)
+  [Development Kit 4.7.2](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe)
 
 
 ### For Both
