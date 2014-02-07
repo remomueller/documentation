@@ -37,7 +37,7 @@ gem update --system
 
 gem --version
 
-  2.0.3    # Or greater!
+  2.2.2    # Or greater!
 
 gem install bundler --no-ri --no-rdoc
 
