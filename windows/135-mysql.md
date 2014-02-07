@@ -22,21 +22,32 @@ Follow instructions on Website above for setting up mysql
 Download the MySQL Connector 32bit NoInstall, [mysql-connector-c-noinstall-6.0.2-win32.zip](http://dev.mysql.com/downloads/mirror.php?id=377978)
 
 
-Extract to `C:\mysql-connector-c-noinstall-6.0.2-win32\`
+Extract to (32-bit) `C:\mysql-connector-c-noinstall-6.0.2-win32\`
+Extract to (64-bit) `C:\mysql-connector-c-noinstall-6.0.2-winx64\`
 
-In command prompt run
+In command prompt run (32 bit)
 
-```console
+```
 gem install mysql2 --platform=ruby -- --with-mysql-lib="C:\mysql-connector-c-noinstall-6.0.2-win32\lib" --with-mysql-include="C:\mysql-connector-c-noinstall-6.0.2-win32\include" --with-mysql-dir="C:\mysql-connector-c-noinstall-6.0.2-win32"
 ```
 
+(64 bit)
 
-Copy libmysql.dll to Ruby Installation Bin
+```
+gem install mysql2 --platform=ruby -- '--with-mysql-dir="C:\mysql-connector-c-noinstall-6.0.2-winx64"'
+```
 
-```console
+Copy libmysql.dll to Ruby Installation Bin (32-bit)
+
+```
 copy C:\mysql-connector-c-noinstall-6.0.2-win32\lib\libmysql.dll C:\Ruby200\bin\libmysql.dll
 ```
 
+Copy libmysql.dll to Ruby Installation Bin (64-bit)
+
+```
+copy C:\mysql-connector-c-noinstall-6.0.2-winx64\lib\libmysql.dll C:\Ruby200-x64\bin\libmysql.dll
+```
 
 ### Next Step
 
