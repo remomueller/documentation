@@ -29,6 +29,8 @@ Install RVM Dependencies
 
 Type `rvm requirements`, may require `rvmsudo rvm requirements`
 
+RVM may also require `rvm group add rvm $USER` in order to set proper user permissions
+
 Make sure you have the latest version of XCode installed. See [100 - Prerequisites](https://github.com/remomueller/documentation/tree/master/macosx/100-prerequisites.md) for XCode installation instructions.
 
 
