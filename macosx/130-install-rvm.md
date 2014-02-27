@@ -22,7 +22,7 @@ Verify RVM version
 Type `rvm --version`
 
 ```console
-rvm 1.25.14 (stable)
+rvm 1.25.19 (stable)
 ```
 
 Install RVM Dependencies
@@ -39,11 +39,11 @@ Make sure you have the latest version of XCode installed. See [100 - Prerequisit
 If you already have RVM installed, you can use the following steps to upgrade RVM.
 
 ```
-rvm get stable
+[rvmsudo] rvm get stable
 
 rvm reload
 
-rvm requirements
+[rvmsudo] rvm requirements
 ```
 
 ### Next Step
