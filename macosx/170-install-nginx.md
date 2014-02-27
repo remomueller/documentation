@@ -11,6 +11,19 @@ rvmsudo passenger-install-nginx-module
 Type `<enter>`
 
 ```
+Which languages are you interested in?
+
+Use <space> to select.
+
+ ‣ ⬢  Ruby
+   ⬡  Python
+   ⬡  Node.js
+   ⬡  Meteor
+```
+
+Deselect Python and Node.js using the `<space>` then type `<enter>`
+
+```
 1. Yes: download, compile and install Nginx for me. (recommended)
 
 Enter your choice (1 or 2) or press Ctrl-C to abort:
