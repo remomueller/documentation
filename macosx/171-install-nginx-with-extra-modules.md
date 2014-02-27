@@ -46,6 +46,19 @@ rvmsudo passenger-install-nginx-module
 
 Type `<enter>`
 
+```
+Which languages are you interested in?
+
+Use <space> to select.
+
+ ‣ ⬢  Ruby
+   ⬡  Python
+   ⬡  Node.js
+   ⬡  Meteor
+```
+
+Deselect Python and Node.js using the `<space>` then type `<enter>`
+
 ```console
 2. No: I want to customize my Nginx installation. (for advanced users)
 
