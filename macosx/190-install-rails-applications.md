@@ -20,6 +20,12 @@ Select `Mac OS X ver. 10.6 (x86, 64-bit), DMG Archive`
 
   mysql-5.1.61-osx10.6-x86_64.dmg
 
+In case you need to install the `mysql` ruby gem, the following can be used
+
+```
+ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
+```
+
 ### 193 Install individual Ruby on Rails Applications
 
 - [Sleep Portal](https://github.com/sleepepi/sleepportal)
