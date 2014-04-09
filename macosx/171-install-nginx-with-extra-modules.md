@@ -9,14 +9,14 @@ Specifically, `headers-more-nginx-module` will be installed in order to remove s
 
 ### Compiling OpenSSL 1.0.1+ requirement for SPDY
 
-Install openssl 1.0.1.e on Mac
+Install openssl 1.0.1.g on Mac
 
 ```
 cd ~/code/source
-wget -O openssl.tar.gz http://www.openssl.org/source/openssl-1.0.1e.tar.gz
+wget -O openssl.tar.gz http://www.openssl.org/source/openssl-1.0.1g.tar.gz
 tar xvzf openssl.tar.gz
 rm openssl.tar.gz
-cd openssl-1.0.1e
+cd openssl-1.0.1g
 ./Configure darwin64-x86_64-cc --prefix=/usr/local no-threads shared
 make
 sudo make install
