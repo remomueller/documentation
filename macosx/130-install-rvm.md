@@ -22,7 +22,7 @@ Verify RVM version
 Type `rvm --version`
 
 ```console
-rvm 1.25.19 (stable)
+rvm 1.25.22 (stable)
 ```
 
 Install RVM Dependencies
