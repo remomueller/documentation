@@ -29,7 +29,7 @@ cd /tmp
 mkdir nginxplus
 cd /tmp/nginxplus
 
-wget -O nginx.tar.gz http://www.nginx.org/download/nginx-1.4.7.tar.gz
+wget -O nginx.tar.gz http://www.nginx.org/download/nginx-1.6.0.tar.gz
 tar xzvf nginx.tar.gz
 rm nginx.tar.gz
 
@@ -73,7 +73,7 @@ Where is your Nginx source code located?
 Please specify the directory:
 ```
 
-Type `/tmp/nginxplus/nginx-1.4.7`
+Type `/tmp/nginxplus/nginx-1.6.0`
 
 ```console
 Where do you want to install Nginx to?
