@@ -21,13 +21,13 @@ rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.1.1
+rvm install 2.1.2
 ```
 
-Activate Ruby 2.1.1
+Activate Ruby 2.1.2
 
 ```
-rvm 2.1.1
+rvm 2.1.2
 ```
 
 Verify Ruby version
@@ -37,13 +37,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.1.1p76 (2014-02-24 revision 45161) [x86_64-darwin13.0]
+ruby 2.1.2p95 (2014-05-08 revision 45877) [x86_64-darwin13.0]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.1.1
+rvm alias create default ruby-2.1.2
 ```
 
 ### 142 Update Ruby Gems
