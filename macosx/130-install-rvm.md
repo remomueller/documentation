@@ -25,6 +25,12 @@ Type `rvm --version`
 rvm 1.25.26 (stable)
 ```
 
+In case rvm is not recognized, add the following to the bottom of `/etc/profile`
+
+```
+test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
+```
+
 Install RVM Dependencies
 
 Type `rvm requirements`, may require `rvmsudo rvm requirements`
