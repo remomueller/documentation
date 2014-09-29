@@ -45,11 +45,11 @@ Make sure you have the latest version of XCode installed. See [100 - Prerequisit
 If you already have RVM installed, you can use the following steps to upgrade RVM.
 
 ```
-[rvmsudo] rvm get stable
+rvmsudo rvm get stable
 
 rvm reload
 
-[rvmsudo] rvm requirements
+rvmsudo rvm requirements
 ```
 
 ### Next Step
