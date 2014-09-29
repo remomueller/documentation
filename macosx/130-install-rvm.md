@@ -22,7 +22,7 @@ Verify RVM version
 Type `rvm --version`
 
 ```console
-rvm 1.25.28 (stable)
+rvm 1.25.31 (stable)
 ```
 
 In case rvm is not recognized, add the following to the bottom of `/etc/profile`
