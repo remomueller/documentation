@@ -52,6 +52,12 @@ rvm alias create default ruby-2.1.5
 gem update --system
 ```
 
+for a specific version of gem
+
+```
+gem update --system 2.2.2 --no-ri --no-rdoc
+```
+
 ### Next Step
 
 [150 - Install Rails](https://github.com/remomueller/documentation/tree/master/macosx/150-rails.md)
