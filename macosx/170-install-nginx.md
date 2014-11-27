@@ -5,6 +5,12 @@ These instructions detail a simple installation of nginx. If you want to include
 ### Start the Passenger installer
 
 ```
+rvmsudo passenger-install-nginx-module --auto --prefix=/usr/local/nginx --languages ruby
+```
+
+or manually
+
+```
 rvmsudo passenger-install-nginx-module
 ```
 
