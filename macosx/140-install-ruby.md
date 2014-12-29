@@ -21,13 +21,19 @@ rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.1.5
+rvm install 2.2.0
 ```
 
-Activate Ruby 2.1.5
+Activate Ruby 2.2.0
 
 ```
-rvm 2.1.5
+rvm 2.2.0
+```
+
+**NOTE** You may need to create a gemset to switch to 2.2.0 if it failed during the install.
+
+```
+rvm 2.2.0 --create
 ```
 
 Verify Ruby version
@@ -37,13 +43,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-darwin14.0]
+ruby 2.2.0p0 (2014-12-25 revision 49005) [x86_64-darwin14]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.1.5
+rvm alias create default ruby-2.2.0
 ```
 
 ### 142 Update Ruby Gems
