@@ -15,7 +15,7 @@ rvm get stable
 Install requirements
 
 ```
-rvm requirements
+rvmsudo rvm requirements
 ```
 
 ### 141 Install Ruby using RVM
