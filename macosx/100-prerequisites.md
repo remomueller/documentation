@@ -1,14 +1,14 @@
 ## 100 Prerequisites
 Instructions for running on your Mac OS X box.
-Tested on Apple Mountain Lion 10.8.4 and Apple Mavericks 10.9
+Tested on Apple Yosemite 10.10
 
 Click Apple Logo in top left of screen and click **About This Mac**
 
 ```
 Mac OS X
-Version 10.9
-Proccessor 2.5 GHz Intel Core i5
-Memory 4GB 1333 MHz DDR3
+Version 10.10
+Proccessor 3.7 GHz Quad-Core Intel Xeon E5
+Memory 12GB 1866 MHz DDR3 ECC
 ```
 
 ### 101 Log in using SSH or Putty
@@ -27,7 +27,7 @@ mkdir ~/code/source
 
 ### 103 XCode
 
-Make sure you have the latest version of XCode installed. XCode 5.0.2 or greater for Mavericks, XCode 4.6.3 or greater for Mountain Lion
+Make sure you have the latest version of XCode installed. XCode 6.1.1 or greater for Yosemite, XCode 4.6.3 or greater for Mountain Lion
 
 [developer.apple.com/xcode](https://developer.apple.com/xcode)
 
