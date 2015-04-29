@@ -13,10 +13,10 @@ Install openssl 1.0.1.g on Mac
 
 ```
 cd ~/code/source
-wget -O openssl.tar.gz http://www.openssl.org/source/openssl-1.0.1g.tar.gz
+wget -O openssl.tar.gz http://www.openssl.org/source/openssl-1.0.1m.tar.gz
 tar xvzf openssl.tar.gz
 rm openssl.tar.gz
-cd openssl-1.0.1g
+cd openssl-1.0.1m
 ./Configure darwin64-x86_64-cc --prefix=/usr/local no-threads shared
 make
 sudo make install
@@ -29,7 +29,7 @@ cd /tmp
 mkdir nginxplus
 cd /tmp/nginxplus
 
-wget -O nginx.tar.gz http://www.nginx.org/download/nginx-1.6.0.tar.gz
+wget -O nginx.tar.gz http://www.nginx.org/download/nginx-1.8.0.tar.gz
 tar xzvf nginx.tar.gz
 rm nginx.tar.gz
 
@@ -73,7 +73,7 @@ Where is your Nginx source code located?
 Please specify the directory:
 ```
 
-Type `/tmp/nginxplus/nginx-1.6.0`
+Type `/tmp/nginxplus/nginx-1.8.0`
 
 ```console
 Where do you want to install Nginx to?
