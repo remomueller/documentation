@@ -43,6 +43,15 @@ xcode-select --install
 
 Open XCode, go to `Preferences`, then select `Downloads`, and `Install Command Line Tools`.
 
+### 104 MacPorts for best Integration with RVM
+
+While Homebrew is a suitable alternative, this guide works best with MacPorts installed for RVM. This guide recommends the use of MacPorts and will not provide solutions for errors encountered due to using Homebrew.
+
+Install MacPorts here:
+
+https://www.macports.org/install.php
+
+Choose the `.pkg` file for your OS, launch the package installer and follow the instructions provided by the installer.
 
 ### Next Step
 
