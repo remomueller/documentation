@@ -18,6 +18,8 @@ Install requirements
 rvmsudo rvm requirements
 ```
 
+**Note:** If you run into issues during the requirements installation, make sure you installed [MacPorts](https://github.com/remomueller/documentation/blob/master/macosx/100-prerequisites.md#104-macports-for-best-integration-with-rvm) as a prerequisite and then switch to MacPorts by default: `rvm autolibs macports`
+
 ### 141 Install Ruby using RVM
 
 ```
