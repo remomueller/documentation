@@ -9,14 +9,12 @@ Specifically, `headers-more-nginx-module` will be installed in order to remove s
 
 ### Compiling OpenSSL 1.0.1+ requirement for SPDY
 
-Install openssl 1.0.1.m on Mac
+Install openssl 1.0.1.o on Mac
 
 ```
 cd ~/code/source
-wget -O openssl.tar.gz http://www.openssl.org/source/openssl-1.0.1m.tar.gz
-tar xvzf openssl.tar.gz
-rm openssl.tar.gz
-cd openssl-1.0.1m
+curl http://www.openssl.org/source/openssl-1.0.1o.tar.gz | tar xvz
+cd openssl-1.0.1o
 ./Configure darwin64-x86_64-cc --prefix=/usr/local no-threads shared
 make
 sudo make install
@@ -28,14 +26,8 @@ sudo make install
 cd /tmp
 mkdir nginxplus
 cd /tmp/nginxplus
-
-wget -O nginx.tar.gz http://www.nginx.org/download/nginx-1.8.0.tar.gz
-tar xzvf nginx.tar.gz
-rm nginx.tar.gz
-
-wget -O headers-more-nginx-module.tar.gz https://github.com/agentzh/headers-more-nginx-module/archive/v0.20.tar.gz --no-check-certificate
-tar xzvf headers-more-nginx-module.tar.gz
-rm headers-more-nginx-module.tar.gz
+curl -L http://www.nginx.org/download/nginx-1.8.0.tar.gz | tar xvz
+curl -L https://github.com/agentzh/headers-more-nginx-module/archive/v0.20.tar.gz --insecure | tar xvz
 ```
 
 ### Start the Passenger Installer
