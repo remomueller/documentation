@@ -4,7 +4,7 @@ Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
 
 ```
 http {
-  passenger_root /usr/local/rvm/gems/ruby-2.2.2/gems/passenger-5.0.10;
+  passenger_root /usr/local/rvm/gems/ruby-2.2.2/gems/passenger-5.0.11;
   passenger_ruby /usr/local/rvm/gems/ruby-2.2.2/wrappers/ruby;
 
   # Allow for up to 10 megabyte uploads
