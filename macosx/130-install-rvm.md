@@ -49,6 +49,8 @@ rvmsudo rvm get stable
 
 rvm reload
 
+sudo /opt/local/bin/port selfupdate
+
 rvmsudo rvm requirements
 ```
 
