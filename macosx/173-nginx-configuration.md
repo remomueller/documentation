@@ -40,9 +40,7 @@ http {
 
   server {
     listen      443;
-    # # Enable SPDY support, only available with extra module installed!
-    # # https://github.com/remomueller/documentation/tree/master/macosx/171-install-nginx-with-extra-modules.md
-    # listen 443 ssl spdy;
+    # listen 443 ssl;
 
     server_name _;
 
