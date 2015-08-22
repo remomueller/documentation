@@ -51,6 +51,10 @@ rvm reload
 
 sudo /opt/local/bin/port selfupdate
 
+sudo /opt/local/bin/port outdated
+
+sudo /opt/local/bin/port upgrade outdated
+
 rvmsudo rvm requirements
 ```
 
