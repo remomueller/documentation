@@ -61,7 +61,7 @@ If you are missing PCRE:
 sudo port install pcre
 ```
 
-If you are missing OpenSSL headers
+If you are missing OpenSSL headers:
 ```
 cd ~/code/source
 curl -L http://www.openssl.org/source/openssl-1.0.1q.tar.gz | tar xvz
