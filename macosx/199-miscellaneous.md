@@ -71,3 +71,30 @@ make
 sudo make install
 ```
 
+### Updating SSL Certificates with MacPorts
+
+Make sure you have openssl installed:
+
+```
+openssl version
+```
+
+```
+openssl version
+sudo port sync
+sudo port selfupdate
+sudo port install
+```
+
+Check to make sure the version updated again.
+```
+openssl version
+```
+
+To update the certificate file:
+
+```
+cd /opt/local/etc/openssl
+sudo curl -O http://curl.haxx.se/ca/cacert.pem
+sudo mv cacert.pem cert.pem
+```
