@@ -73,17 +73,12 @@ sudo make install
 
 ### Updating SSL Certificates with MacPorts
 
-Make sure you have OpenSSL installed:
+To install OpenSSL you need [Port installed](https://github.com/remomueller/documentation/blob/master/macosx/100-prerequisites.md#104-macports-for-best-integration-with-rvm)
 
 ```
-openssl version
-```
-
-```
-openssl version
 sudo port sync
 sudo port selfupdate
-sudo port install
+sudo port install openssl
 ```
 
 Check to make sure the version updated again.
