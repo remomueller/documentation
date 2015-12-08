@@ -64,7 +64,7 @@ sudo port install pcre
 If you are missing OpenSSL
 ```
 cd ~/code/source
-curl http://www.openssl.org/source/openssl-1.0.1q.tar.gz | tar xvz
+curl -L http://www.openssl.org/source/openssl-1.0.1q.tar.gz | tar xvz
 cd openssl-1.0.1q
 ./Configure darwin64-x86_64-cc --prefix=/usr/local no-threads shared
 make
