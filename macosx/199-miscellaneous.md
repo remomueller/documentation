@@ -91,6 +91,13 @@ Check to make sure the version updated again.
 openssl version
 ```
 
+Should return this (or later), check http://openssl.org/ for latest version.
+
+```console
+OpenSSL 1.0.1q 3 Dec 2015
+```
+
+
 To update the certificate file:
 
 ```
