@@ -73,7 +73,7 @@ sudo make install
 
 ### Updating SSL Certificates with MacPorts
 
-Make sure you have openssl installed:
+Make sure you have OpenSSL installed:
 
 ```
 openssl version
