@@ -10,14 +10,14 @@ Specifically, `headers-more-nginx-module` will be installed in order to remove s
 cd /tmp
 mkdir nginxplus
 cd /tmp/nginxplus
-curl -L http://www.nginx.org/download/nginx-1.8.0.tar.gz | tar xvz
+curl -L http://www.nginx.org/download/nginx-1.8.1.tar.gz | tar xvz
 curl -L https://github.com/agentzh/headers-more-nginx-module/archive/v0.20.tar.gz --insecure | tar xvz
 ```
 
 ### Start the Passenger Installer
 
 ```
-rvmsudo passenger-install-nginx-module --auto --prefix=/usr/local/nginx --nginx-source-dir=/tmp/nginxplus/nginx-1.8.0 --extra-configure-flags="--add-module=/tmp/nginxplus/headers-more-nginx-module-0.20" --languages ruby
+rvmsudo passenger-install-nginx-module --auto --prefix=/usr/local/nginx --nginx-source-dir=/tmp/nginxplus/nginx-1.8.1 --extra-configure-flags="--add-module=/tmp/nginxplus/headers-more-nginx-module-0.20" --languages ruby
 ```
 
 or manually
@@ -55,7 +55,7 @@ Where is your Nginx source code located?
 Please specify the directory:
 ```
 
-Type `/tmp/nginxplus/nginx-1.8.0`
+Type `/tmp/nginxplus/nginx-1.8.1`
 
 ```console
 Where do you want to install Nginx to?
