@@ -7,9 +7,7 @@ Download and compile node.js and Node Package Manager
 
 ```
 cd ~/code/source
-wget http://nodejs.org/dist/v0.8.14/node-v0.8.14.tar.gz
-tar xzvf node-v0.8.14.tar.gz
-rm node-v0.8.14.tar.gz
+curl -L http://nodejs.org/dist/v0.8.14/node-v0.8.14.tar.gz | tar xvz
 cd node-v0.8.14/
 ./configure
 make
