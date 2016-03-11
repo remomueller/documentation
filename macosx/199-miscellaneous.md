@@ -64,8 +64,8 @@ sudo port install pcre
 If you are missing OpenSSL headers:
 ```
 cd ~/code/source
-curl -L http://www.openssl.org/source/openssl-1.0.1q.tar.gz | tar xvz
-cd openssl-1.0.1q
+curl -L http://www.openssl.org/source/openssl-1.0.1s.tar.gz | tar xvz
+cd openssl-1.0.1s
 ./Configure darwin64-x86_64-cc --prefix=/usr/local no-threads shared
 make
 sudo make install
@@ -89,7 +89,7 @@ openssl version
 Should return this (or later), check http://openssl.org/ for latest version.
 
 ```console
-OpenSSL 1.0.1q 3 Dec 2015
+OpenSSL 1.0.1s  1 Mar 2016
 ```
 
 
