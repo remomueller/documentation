@@ -21,6 +21,12 @@ Go to System Preferences -> Users & Groups
 
 Select `rvm` under Groups and add your user to the RVM group by selecting the checkbox next to your user name.
 
+Create (or append to) `~/.bash_profile` file the following line:
+
+```
+export rvmsudo_secure_path=0
+```
+
 Verify RVM version
 
 Type `rvm --version`
