@@ -53,6 +53,12 @@ https://www.macports.org/install.php
 
 Choose the `.pkg` file for your OS, launch the package installer and follow the instructions provided by the installer.
 
+After running the installer, create a symbolic link to the `port` command:
+
+```
+sudo ln -s /opt/local/bin/port /usr/local/bin/port
+```
+
 ### Next Step
 
 [110 - Startup](https://github.com/remomueller/documentation/tree/master/macosx/110-startup.md)
