@@ -17,6 +17,10 @@ cd ~/code/source
 
 **Important! Logout and login again to reload bash shell!**
 
+Go to System Preferences -> Users & Groups
+
+Select `rvm` under Groups and add your user to the RVM group by selecting the checkbox next to your user name.
+
 Verify RVM version
 
 Type `rvm --version`
