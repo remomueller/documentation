@@ -1,7 +1,7 @@
 ## 160 Install Phusion Passenger
 
 ```
-gem install passenger --no-ri --no-rdoc
+gem install passenger --no-document
 ```
 
 ### Next Step
