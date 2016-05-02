@@ -4,6 +4,21 @@ This document describes how to install nginx with extra modules in case the simp
 
 Specifically, `headers-more-nginx-module` will be installed in order to remove server and x-powered-by headers for better security using `more_clear_headers`.
 
+**NOTE**
+Passenger 5.0.28 does not compile correctly with Xcode 7.3. Make sure to switch to Xcode 7.2.1 when compiling otherwise nginx will fail to launch rails applications, giving the page "An error occurred. [...] Faithfully yours, nginx."
+
+To switch, the following can be done (older version of [Xcode 7.2.1](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_7.2.1/Xcode_7.2.1.dmg) will need to be installed under a different name, i.e. `Xcode72.app`):
+
+```
+sudo xcode-select -switch /Applications/Xcode72.app/Contents/Developer
+```
+
+and to switch back when done using reinstalling the passenger gem and nginx:
+
+```
+sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+```
+
 ### Download nginx source code
 
 ```
