@@ -19,6 +19,10 @@ and to switch back when done using reinstalling the passenger gem and nginx:
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
 ```
 
+The above steps can also be done through Xcode -> Preferences -> Locations:
+
+![xcode 7.3 and 7.2.1](https://cloud.githubusercontent.com/assets/316479/14956437/c77494d0-104d-11e6-87f4-e38bdb055d5b.png)
+
 ### Download nginx source code
 
 ```
