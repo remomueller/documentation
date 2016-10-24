@@ -1,12 +1,12 @@
 ## 100 Prerequisites
-Instructions for running on your Mac OS X box.
-Most recently tested on Apple El Capitan 10.11.4
+Instructions for running on your macOS box.
+Most recently tested on Apple macOS Sierra 10.12
 
 Click Apple Logo in top left of screen and click **About This Mac**
 
 ```
-Mac OS X
-Version 10.11.4
+macOS Sierra
+Version 10.12
 Proccessor 3.7 GHz Quad-Core Intel Xeon E5
 Memory 12GB 1866 MHz DDR3 ECC
 ```
