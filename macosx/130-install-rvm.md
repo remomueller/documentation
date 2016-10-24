@@ -5,7 +5,7 @@ Ruby Version Manager allows multiple instances of Ruby to exist.  This greatly a
 
 ### 131 Curl needs a new cacert.pem file to work correctly
 
-NOTE: Not necessary on Mac OS X
+NOTE: Not necessary on macOS
 
 
 ### 132 Multi-User install for RVM
