@@ -27,11 +27,11 @@ mkdir ~/code/source
 
 ### 103 XCode
 
-Make sure you have the latest version of XCode installed. XCode 6.1.1 or greater for Yosemite, XCode 4.6.3 or greater for Mountain Lion
+Make sure you have the latest version of XCode installed. XCode 8.0 or greater for Sierra, XCode 6.1.1 or greater for Yosemite, XCode 4.6.3 or greater for Mountain Lion.
 
 [developer.apple.com/xcode](https://developer.apple.com/xcode)
 
-#### El Capitan - Install Command Line Tools
+#### El Capitan/Sierra - Install Command Line Tools
 
 Open Terminal and type:
 
