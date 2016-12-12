@@ -3,7 +3,7 @@
 Prerequisite: Install may require certain requirements to be installed
 
 ```
-rvm requirements
+rvmsudo rvm requirements
 ```
 
 ### 141 Install Ruby using RVM
