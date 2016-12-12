@@ -74,7 +74,7 @@ gem update --system 2.6.3 --no-document
 
 ### Next Step
 
-You have successfully installed Ruby on Windows. If you have been directed here from installation instructions for the NSRR gem, Edfize, or Spout, you can now return to continue the gem installation instructions.
+You have successfully installed Ruby on MacOS. If you have been directed here from installation instructions for the NSRR gem, Edfize, or Spout, you can now return to continue the gem installation instructions.
 
 - Back to [NSRR Gem Installation](https://github.com/nsrr/nsrr-gem#installation)
 - Back to [Edfize Gem Installation](https://github.com/sleepepi/edfize#installation)
