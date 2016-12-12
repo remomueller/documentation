@@ -43,7 +43,7 @@ gem install bundler --no-document
 
 bundle --version
 
-  Bundler version 1.12.5    # Or greater!
+  Bundler version 1.13.6    # Or greater!
 ```
 
 
