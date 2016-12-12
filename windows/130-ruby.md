@@ -30,14 +30,14 @@ Install RubyInstaller and select
 
 - Associate .rb and .rbw files with Ruby
 
-Open Command Prompt and UPDATE RUBY GEMS and BUNDLER
+Open Command Prompt and update Ruby Gem command and install Bundler
 
 ```
-gem update --system
+gem update --system --no-document
 
 gem --version
 
-  2.6.4    # Or greater!
+  2.6.8    # Or greater!
 
 gem install bundler --no-document
 
