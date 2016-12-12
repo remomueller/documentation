@@ -9,7 +9,7 @@ sudo yum install httpd-devel apr-devel apr-util-devel curl-devel
 **Apache and Nginx**: Install Passenger gem
 
 ```
-gem install passenger --no-ri --no-rdoc
+gem install passenger --no-document
 ```
 
 ### Next Step
