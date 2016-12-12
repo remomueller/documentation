@@ -3,23 +3,23 @@
 
 ### 64bit Windows 7
 
-Download Ruby 2.3.1 from http://rubyinstaller.org/downloads/
+Download Ruby 2.3.3 from http://rubyinstaller.org/downloads/
 
-  [Ruby 2.3.1 (x64)](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1-x64.exe)
+  [Ruby 2.3.3 (x64)](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3-x64.exe)
 
 Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
                                 
-  [Development Kit 4.7.2 (x64)](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)
+  [Development Kit 4.7.2 (x64)](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)
 
 ### 32bit Windows 7
 
-Download Ruby 2.3.1 from http://rubyinstaller.org/downloads/
+Download Ruby 2.3.3 from http://rubyinstaller.org/downloads/
 
-  [Ruby 2.3.1](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1.exe)
+  [Ruby 2.3.3](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3.exe)
 
 Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
 
-  [Development Kit 4.7.2](http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe)
+  [Development Kit 4.7.2](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe)
 
 
 ### For Both
