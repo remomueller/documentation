@@ -34,9 +34,9 @@ Type `/usr/local/nginx`
 **Apache**: Edit `sudo vi /etc/httpd/conf.d/rails.conf`
 
 ```
-LoadModule passenger_module /usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.20/ext/apache2/mod_passenger.so
-PassengerRoot /usr/local/rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.20
-PassengerRuby /usr/local/rvm/wrappers/ruby-2.0.0-p247/ruby
+LoadModule passenger_module /usr/local/rvm/gems/ruby-2.3.3/gems/passenger-5.0.30/ext/apache2/mod_passenger.so
+PassengerRoot /usr/local/rvm/gems/ruby-2.3.3/gems/passenger-5.0.30
+PassengerRuby /usr/local/rvm/wrappers/ruby-2.3.3/ruby
 
 PassengerMaxPoolSize 12
 PassengerPoolIdleTime 3600
