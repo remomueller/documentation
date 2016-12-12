@@ -42,4 +42,12 @@ gem update --system
 
 ### Next Step
 
+You have successfully installed Ruby on Windows. If you have been directed here from installation instructions for the NSRR gem, Edfize, or Spout, you can now return to continue the gem installation instructions.
+
+- Back to [NSRR Gem Installation](https://github.com/nsrr/nsrr-gem#installation)
+- Back to [Edfize Gem Installation](https://github.com/sleepepi/edfize#installation)
+- Back to [Spout Gem Installation](https://github.com/sleepepi/spout#installation)
+
+For those installing the entire Rails stack, continue below.
+
 [150 - Install Rails](https://github.com/remomueller/documentation/tree/master/centos/150-install-rails.md)
