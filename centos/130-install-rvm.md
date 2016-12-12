@@ -2,7 +2,7 @@
 
 Ruby Version Manager allows multiple instances of Ruby to exist.  This greatly aids upgrading to newer versions of Ruby without breaking existing Ruby installations.
 
-### 131 Curl needs a new cacert.pem file to work correctly (CentOS 5.7 only)
+### 131 Curl needs a new cacert.pem file to work correctly (CentOS 5.x only)
 
 ```
 cd ~/code/source
@@ -42,7 +42,7 @@ rvm:x:20001:user1,user2
 Verify RVM version by typing `rvm --version` which should return
 
 ```console
-rvm 1.21.7 (stable)
+rvm 1.27.0 (stable)
 ```
 
 Install RVM Dependencies (discover by typing: `rvm requirements`)
@@ -77,9 +77,11 @@ sudo rpm --import http://packages.atrpms.net/RPM-GPG-KEY.atrpms
 ### 139 Upgrading Existing RVM (optional)
 
 ```
-rvm get stable
+rvmsudo rvm get stable
 
 rvm reload
+
+rvmsudo rvm requirements
 ```
 
 ### Next Step
