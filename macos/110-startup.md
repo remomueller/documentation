@@ -16,8 +16,8 @@ System Preferences => Sharing => Web Sharing (is checked)
 Apple Logo => Restart...
 ```
 
-[Nginx Commands](https://github.com/remomueller/documentation/tree/master/macosx/179-nginx-commands.md)
+[Nginx Commands](https://github.com/remomueller/documentation/tree/master/macos/179-nginx-commands.md)
 
 ### Next Step
 
-[120 - Install Git](https://github.com/remomueller/documentation/tree/master/macosx/120-install-git.md)
+[120 - Install Git](https://github.com/remomueller/documentation/tree/master/macos/120-install-git.md)

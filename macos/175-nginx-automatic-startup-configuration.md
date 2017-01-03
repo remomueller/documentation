@@ -46,7 +46,7 @@ sudo launchctl start org.nginx.nginx
 
 ### Next Step
 
-[179 - Nginx Commands](https://github.com/remomueller/documentation/tree/master/macosx/179-nginx-commands.md)
+[179 - Nginx Commands](https://github.com/remomueller/documentation/tree/master/macos/179-nginx-commands.md)
 
-[180 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/macosx/180-coffeescript.md)
+[180 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/macos/180-coffeescript.md)
 

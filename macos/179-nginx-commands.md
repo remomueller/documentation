@@ -28,4 +28,4 @@ kill -HUP $( cat /usr/local/nginx/logs/nginx.pid )
 
 ### Next Step
 
-[180 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/macosx/180-coffeescript.md)
+[180 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/macos/180-coffeescript.md)

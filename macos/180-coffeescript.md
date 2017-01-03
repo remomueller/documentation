@@ -96,4 +96,4 @@ CoffeeScript version 1.10.0
 
 ### Next Step
 
-[190 - Install Rails Applications](https://github.com/remomueller/documentation/tree/master/macosx/190-install-rails-applications.md)
+[190 - Install Rails Applications](https://github.com/remomueller/documentation/tree/master/macos/190-install-rails-applications.md)

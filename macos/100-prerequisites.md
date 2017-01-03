@@ -61,4 +61,4 @@ sudo ln -s /opt/local/bin/port /usr/local/bin/port
 
 ### Next Step
 
-[110 - Startup](https://github.com/remomueller/documentation/tree/master/macosx/110-startup.md)
+[110 - Startup](https://github.com/remomueller/documentation/tree/master/macos/110-startup.md)

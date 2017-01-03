@@ -27,7 +27,7 @@ http {
   # Stop server from announcing own details
   server_tokens off;
   # # Stop server from announcing additional headers, only available with extra module installed!
-  # # https://github.com/remomueller/documentation/tree/master/macosx/171-install-nginx-with-extra-modules.md
+  # # https://github.com/remomueller/documentation/tree/master/macos/171-install-nginx-with-extra-modules.md
   # more_clear_headers 'Server';
   # more_clear_headers 'X-Powered-By';
   # more_clear_headers 'X-Runtime';
@@ -69,4 +69,4 @@ http {
 
 ### Next Step
 
-[175 - Nginx Automatic Startup](https://github.com/remomueller/documentation/tree/master/macosx/175-nginx-automatic-startup-configuration.md)
+[175 - Nginx Automatic Startup](https://github.com/remomueller/documentation/tree/master/macos/175-nginx-automatic-startup-configuration.md)

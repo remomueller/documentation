@@ -1,6 +1,6 @@
 ## 170 Install Nginx
 
-These instructions detail a simple installation of nginx. If you want to include an additional security module, or wish to use an alternative version of nginx, you can follow the instructions provided in [171 - Install Nginx With Extra Modules](https://github.com/remomueller/documentation/tree/master/macosx/171-install-nginx-with-extra-modules.md) instead.
+These instructions detail a simple installation of nginx. If you want to include an additional security module, or wish to use an alternative version of nginx, you can follow the instructions provided in [171 - Install Nginx With Extra Modules](https://github.com/remomueller/documentation/tree/master/macos/171-install-nginx-with-extra-modules.md) instead.
 
 ### Start the Passenger installer
 

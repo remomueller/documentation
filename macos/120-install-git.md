@@ -37,4 +37,4 @@ git version 1.7.10
 
 ### Next Step
 
-[130 - Install Ruby Version Manager](https://github.com/remomueller/documentation/tree/master/macosx/130-install-rvm.md)
+[130 - Install Ruby Version Manager](https://github.com/remomueller/documentation/tree/master/macos/130-install-rvm.md)

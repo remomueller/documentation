@@ -1,6 +1,6 @@
 ## 140 Install Ruby
 
-Make sure you followed [100 - Prerequisites](https://github.com/remomueller/documentation/tree/master/macosx/100-prerequisites.md) to successfully install Ruby
+Make sure you followed [100 - Prerequisites](https://github.com/remomueller/documentation/tree/master/macos/100-prerequisites.md) to successfully install Ruby
 
 To update rvm:
 
@@ -82,4 +82,4 @@ You have successfully installed Ruby on MacOS. If you have been directed here fr
 
 For those installing the entire Rails stack, continue below.
 
-[150 - Install Rails](https://github.com/remomueller/documentation/tree/master/macosx/150-rails.md)
+[150 - Install Rails](https://github.com/remomueller/documentation/tree/master/macos/150-rails.md)
