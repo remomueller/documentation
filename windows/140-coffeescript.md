@@ -5,4 +5,4 @@ NOTE: May not be required as ExecJS defaults to using Windows JavaScript compile
 
 ### Next Step
 
-[150 - Install Rails](https://github.com/remomueller/documentation/tree/master/windows/150-rails.md)
+[150 - Install Rails](https://github.com/remomueller/documentation/blob/master/windows/150-rails.md)

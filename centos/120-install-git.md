@@ -33,4 +33,4 @@ git version 1.8.1.1
 
 ### Next Step
 
-[130 - Install Ruby Version Manager](https://github.com/remomueller/documentation/tree/master/centos/130-install-rvm.md)
+[130 - Install Ruby Version Manager](https://github.com/remomueller/documentation/blob/master/centos/130-install-rvm.md)

@@ -47,7 +47,7 @@ Type `rvm requirements`, may require `rvmsudo rvm requirements`
 
 RVM may also require `rvm group add rvm $USER` in order to set proper user permissions
 
-Make sure you have the latest version of XCode installed. See [100 - Prerequisites](https://github.com/remomueller/documentation/tree/master/macos/100-prerequisites.md) for XCode installation instructions.
+Make sure you have the latest version of XCode installed. See [100 - Prerequisites](https://github.com/remomueller/documentation/blob/master/macos/100-prerequisites.md) for XCode installation instructions.
 
 
 ### 139 Upgrading Ruby Version Manager (optional)
@@ -68,9 +68,9 @@ sudo /opt/local/bin/port upgrade outdated
 rvmsudo rvm requirements
 ```
 
-**Note:** If you run into issues during the requirements installation, make sure you installed [MacPorts](https://github.com/remomueller/documentation/blob/master/macosx/100-prerequisites.md#104-macports-for-best-integration-with-rvm) as a prerequisite and then switch to MacPorts by default: `rvm autolibs macports`
+**Note:** If you run into issues during the requirements installation, make sure you installed [MacPorts](https://github.com/remomueller/documentation/blob/master/macos/100-prerequisites.md#104-macports-for-best-integration-with-rvm) as a prerequisite and then switch to MacPorts by default: `rvm autolibs macports`
 
 ### Next Step
 
-[140 - Install Ruby](https://github.com/remomueller/documentation/tree/master/macos/140-install-ruby.md)
+[140 - Install Ruby](https://github.com/remomueller/documentation/blob/master/macos/140-install-ruby.md)
 

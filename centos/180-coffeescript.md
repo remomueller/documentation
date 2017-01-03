@@ -74,4 +74,4 @@ CoffeeScript version 1.10.0
 
 ### Next Step
 
-[190 - Install Rails Applications](https://github.com/remomueller/documentation/tree/master/centos/190-install-rails-applications.md)
+[190 - Install Rails Applications](https://github.com/remomueller/documentation/blob/master/centos/190-install-rails-applications.md)

@@ -126,4 +126,4 @@ kill -HUP $( cat /usr/local/nginx/logs/nginx.pid )
 
 ### Next Step
 
-[180 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/centos/180-coffeescript.md)
+[180 - Install CoffeeScript](https://github.com/remomueller/documentation/blob/master/centos/180-coffeescript.md)

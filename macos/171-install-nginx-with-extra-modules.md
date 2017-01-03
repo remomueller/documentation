@@ -1,6 +1,6 @@
 ## 171 Install Nginx with Extra Modules
 
-This document describes how to install nginx with extra modules in case the simple approach outlined in [170 - Install Nginx](https://github.com/remomueller/documentation/tree/master/macos/170-install-nginx.md) is not sufficient.
+This document describes how to install nginx with extra modules in case the simple approach outlined in [170 - Install Nginx](https://github.com/remomueller/documentation/blob/master/macos/170-install-nginx.md) is not sufficient.
 
 Specifically, `headers-more-nginx-module` will be installed in order to remove server and x-powered-by headers for better security using `more_clear_headers`.
 
@@ -117,4 +117,4 @@ Type `<enter>`
 
 ### Next Step
 
-[173 - Nginx Configuration](https://github.com/remomueller/documentation/blob/master/macosx/173-nginx-configuration.md)
+[173 - Nginx Configuration](https://github.com/remomueller/documentation/blob/master/macos/173-nginx-configuration.md)

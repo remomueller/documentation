@@ -23,4 +23,4 @@ sudo reboot
 
 ### Next Step
 
-[120 - Install Git](https://github.com/remomueller/documentation/tree/master/centos/120-install-git.md)
+[120 - Install Git](https://github.com/remomueller/documentation/blob/master/centos/120-install-git.md)

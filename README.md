@@ -5,9 +5,9 @@ The documentation provides a solution to serving production Ruby on Rails applic
 
 ## Platforms (64-bit)
 
-- [CentOS](https://github.com/remomueller/documentation/tree/master/centos)
-- [macOS](https://github.com/remomueller/documentation/tree/master/macos)
-- [Windows](https://github.com/remomueller/documentation/tree/master/windows)
+- [CentOS](https://github.com/remomueller/documentation/blob/master/centos)
+- [macOS](https://github.com/remomueller/documentation/blob/master/macos)
+- [Windows](https://github.com/remomueller/documentation/blob/master/windows)
 
 ## Tools (cross-platform)
 

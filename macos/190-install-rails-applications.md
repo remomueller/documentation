@@ -39,4 +39,4 @@ ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mys
 
 ### Next Step
 
-[199 - Miscellaneous](https://github.com/remomueller/documentation/tree/master/macos/199-miscellaneous.md)
+[199 - Miscellaneous](https://github.com/remomueller/documentation/blob/master/macos/199-miscellaneous.md)

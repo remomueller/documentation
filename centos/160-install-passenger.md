@@ -14,5 +14,5 @@ gem install passenger --no-document
 
 ### Next Step
 
-[170 - Install Nginx](https://github.com/remomueller/documentation/tree/master/centos/170-install-nginx.md)
+[170 - Install Nginx](https://github.com/remomueller/documentation/blob/master/centos/170-install-nginx.md)
 

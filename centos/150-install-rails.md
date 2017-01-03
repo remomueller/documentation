@@ -6,4 +6,4 @@ gem install bundler rails --no-document
 
 ### Next Step
 
-[160 - Install Passenger](https://github.com/remomueller/documentation/tree/master/centos/160-install-passenger.md)
+[160 - Install Passenger](https://github.com/remomueller/documentation/blob/master/centos/160-install-passenger.md)

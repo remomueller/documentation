@@ -27,4 +27,4 @@ gem install thin --no-ri --no-rdoc
 
 ### Run Into Errors?
 
-[190 - Miscellaneous](https://github.com/remomueller/documentation/tree/master/windows/190-miscellaneous.md)
+[190 - Miscellaneous](https://github.com/remomueller/documentation/blob/master/windows/190-miscellaneous.md)

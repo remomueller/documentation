@@ -27,4 +27,4 @@ mkdir ~/code/source
 
 ### Next Step
 
-[110 - Startup](https://github.com/remomueller/documentation/tree/master/centos/110-startup.md)
+[110 - Startup](https://github.com/remomueller/documentation/blob/master/centos/110-startup.md)

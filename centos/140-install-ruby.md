@@ -50,4 +50,4 @@ You have successfully installed Ruby on CentOS. If you have been directed here f
 
 For those installing the entire Rails stack, continue below.
 
-[150 - Install Rails](https://github.com/remomueller/documentation/tree/master/centos/150-install-rails.md)
+[150 - Install Rails](https://github.com/remomueller/documentation/blob/master/centos/150-install-rails.md)

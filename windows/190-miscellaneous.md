@@ -43,4 +43,4 @@ gem uninstall mysql2
 # Make sure you select "All versions", especially if you have `mysql2-x.x.x-x86-mingw32` and `mysql2-x.x.x` gems installed!
 ```
 
-Then reinstall as per the directions in [135 - Install MySQL](https://github.com/remomueller/documentation/tree/master/windows/135-mysql.md)
+Then reinstall as per the directions in [135 - Install MySQL](https://github.com/remomueller/documentation/blob/master/windows/135-mysql.md)

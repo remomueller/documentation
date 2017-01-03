@@ -32,4 +32,4 @@ rvm osx-ssl-certs update all
 
 ### Next Step
 
-[160 - Install Passenger](https://github.com/remomueller/documentation/tree/master/macos/160-passenger.md)
+[160 - Install Passenger](https://github.com/remomueller/documentation/blob/master/macos/160-passenger.md)

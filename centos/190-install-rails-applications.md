@@ -35,4 +35,4 @@ sudo yum install libxml libxml-devel libxslt libxslt-devel
 
 ### Next Step
 
-[199 - Miscellaneous](https://github.com/remomueller/documentation/tree/master/centos/199-miscellaneous.md)
+[199 - Miscellaneous](https://github.com/remomueller/documentation/blob/master/centos/199-miscellaneous.md)

@@ -51,4 +51,4 @@ copy C:\mysql-connector-c-noinstall-6.0.2-winx64\lib\libmysql.dll C:\Ruby200-x64
 
 ### Next Step
 
-[140 - Install CoffeeScript](https://github.com/remomueller/documentation/tree/master/windows/140-coffeescript.md)
+[140 - Install CoffeeScript](https://github.com/remomueller/documentation/blob/master/windows/140-coffeescript.md)

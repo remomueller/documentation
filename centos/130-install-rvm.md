@@ -86,4 +86,4 @@ rvmsudo rvm requirements
 
 ### Next Step
 
-[140 - Install Ruby](https://github.com/remomueller/documentation/tree/master/centos/140-install-ruby.md)
+[140 - Install Ruby](https://github.com/remomueller/documentation/blob/master/centos/140-install-ruby.md)

@@ -8,7 +8,7 @@ Download Ruby 2.3.3 from http://rubyinstaller.org/downloads/
   [Ruby 2.3.3 (x64)](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3-x64.exe)
 
 Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
-                                
+
   [Development Kit 4.7.2 (x64)](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)
 
 ### 32bit Windows 7
@@ -85,4 +85,4 @@ You have successfully installed Ruby on Windows. If you have been directed here 
 
 For those installing the entire Rails stack, continue below.
 
-[135 - Install MySQL](https://github.com/remomueller/documentation/tree/master/windows/135-mysql.md)
+[135 - Install MySQL](https://github.com/remomueller/documentation/blob/master/windows/135-mysql.md)
