@@ -22,6 +22,6 @@ The documentation provides a solution to serving production Ruby on Rails applic
   - Compiling against the 32-bit connector
 - Node.js and CoffeeScript
 
-## Copyright
+## License
 
-Copyright (c) 2016 Remo Mueller. See [LICENSE](https://github.com/remomueller/documentation/blob/master/LICENSE) for further details.
+The documentation is released under the [![CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
