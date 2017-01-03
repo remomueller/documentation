@@ -12,7 +12,7 @@ The documentation provides a solution to serving production Ruby on Rails applic
 ## Tools (cross-platform)
 
 - Git
-- Apache
+- nginx
   - Passenger
   - ProxyPass and load balancing
 - Ruby
