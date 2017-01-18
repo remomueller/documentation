@@ -8,8 +8,8 @@ Download and compile node.js and Node Package Manager
 
 ```
 cd ~/code/source
-curl http://nodejs.org/dist/v0.10.13/node-v0.10.13.tar.gz | tar xvz
-cd node-*
+curl -L https://nodejs.org/dist/v6.9.4/node-v6.9.4.tar.gz | tar xvz
+cd node-v6.9.4/
 ./configure
 make
 sudo make install
@@ -24,7 +24,7 @@ Verify Node.js installed by typing `which node` which should return:
 Verify Node.js version by typing `node -v` which should return:
 
 ```console
-v0.10.13
+v6.9.4
 ```
 
 Verify npm installed by typing `which npm` which should return:
@@ -36,7 +36,7 @@ Verify npm installed by typing `which npm` which should return:
 Verify npm version by typing `npm -v` which should return:
 
 ```console
-1.3.2
+3.10.10
 ```
 
 Make symbolic links for node and npm
@@ -69,7 +69,7 @@ sudo ln -s /usr/local/bin/coffee /usr/bin/coffee
 Verify CoffeeScript version by typing `coffee -v` which should return:
 
 ```console
-CoffeeScript version 1.10.0
+CoffeeScript version 1.12.2
 ```
 
 ### Next Step
