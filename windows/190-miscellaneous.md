@@ -27,9 +27,9 @@ thin start -p 3000 -e production
 If you get the warning `cannot load such file -- 2.0/bcrypt_ext` when running `bundle exec rake`, then you need to reinstall bcrypt-ruby
 
 ```
-gem uninstall bcrypt-ruby
+gem uninstall bcrypt
 
-gem install bcrypt-ruby --platform=ruby --no-ri --no-rdoc
+gem install bcrypt --platform=ruby --no-ri --no-rdoc
 ```
 
 
