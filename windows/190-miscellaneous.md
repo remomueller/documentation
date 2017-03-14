@@ -22,9 +22,9 @@ thin start -p 3000 -e production
 
 
 
-### 191 Bcrypt-Ruby Error
+### 191 Bcrypt Error
 
-If you get the warning `cannot load such file -- 2.0/bcrypt_ext` when running `bundle exec rake`, then you need to reinstall bcrypt-ruby
+If you get the warning `cannot load such file -- 2.0/bcrypt_ext` when running `bundle exec rake`, then you need to reinstall bcrypt
 
 ```
 gem uninstall bcrypt
