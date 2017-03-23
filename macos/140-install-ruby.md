@@ -23,19 +23,19 @@ rvmsudo rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.4.0
+rvm install 2.4.1
 ```
 
-Activate Ruby 2.4.0
+Activate Ruby 2.4.1
 
 ```
-rvm 2.4.0
+rvm 2.4.1
 ```
 
-**NOTE** You may need to create a gemset to switch to 2.4.0 if it failed during the install.
+**NOTE** You may need to create a gemset to switch to 2.4.1 if it failed during the install.
 
 ```
-rvm 2.4.0 --create
+rvm 2.4.1 --create
 ```
 
 Verify Ruby version
@@ -45,13 +45,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin16]
+ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.4.0
+rvm alias create default ruby-2.4.1
 ```
 
 ### 142 Update Ruby Gems
