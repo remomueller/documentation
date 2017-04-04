@@ -1,5 +1,6 @@
 ## 130 Installing Ruby and DevKit on Windows 7
 
+**Important**: If you have an existing installation of Ruby, make sure you [completely remove the installation](#) before proceeding with the steps below. Check to see if you have `C:\DevKit` or `C:\Ruby*\` folders that may be previous installations Ruby on Windows.
 
 ### 64bit Windows 7
 
