@@ -2,6 +2,8 @@
 
 **Important**: If you have an existing installation of Ruby, make sure you [completely remove the installation](https://github.com/remomueller/documentation/blob/master/windows/191-removing-old-rubies.md) before proceeding with the steps below. Check to see if you have `C:\DevKit` or `C:\Ruby*\` folders that may be previous installations Ruby on Windows.
 
+If you run into any errors during this guide, check the [Errors and Solutions](https://github.com/remomueller/documentation/blob/master/windows/199-errors-and-solutions.md) for the causes.
+
 ### 64bit Windows 7
 
 Download Ruby 2.3.3 from http://rubyinstaller.org/downloads/
