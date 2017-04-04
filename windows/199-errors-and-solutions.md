@@ -2,7 +2,7 @@
 
 Note: Most issues are solved by [Removing Old Ruby Installations](https://github.com/remomueller/documentation/blob/master/windows/191-removing-old-rubies.md) and [Reinstalling Ruby](https://github.com/remomueller/documentation/blob/master/windows/130-ruby.md).
 
-This page will help you identify WHAT the cause of the issue may be, but most solutions recommend a clean reinstall of Ruby.
+This page will help you identify WHAT the cause of the issue may be, but most solutions recommend a clean reinstall of Ruby. Finally, *if you don't see your issue listed here*, feel free to [report the issue](https://github.com/remomueller/documentation/issues).
 
 ### Command Prompt "Not Recognized as an Internal or External Command"
 
