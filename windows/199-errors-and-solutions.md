@@ -12,7 +12,7 @@ This page will help you identify WHAT the cause of the issue may be, but most so
 'nsrr' is not recognized as an internal or external command, operable program or batch file.
 ```
 
-If you receive one of the above messages when attempting to run Ruby or a Ruby gem, it means that Ruby was not added to the Windows path during the RubyInstaller installation wizard. This issue can be resolved by [Removing Old Ruby Installations](https://github.com/remomueller/documentation/blob/master/windows/191-removing-old-rubies.md) and [Reinstalling Ruby](https://github.com/remomueller/documentation/blob/master/windows/130-ruby.md) and particularly making sure to select **"Add Ruby to Path"** when the installer prompts you to check a series of checkmarks.
+If you receive one of the above messages when attempting to run Ruby or a Ruby gem, it means that Ruby was not added to the Windows path during the RubyInstaller installation wizard. It may also be that you are using a Command Prompt window that was open before the installation completed. Closing and reopening all command prompt windows, or even rebooting your computer first may help address this. If these don't work, the issue can be resolved by [Removing Old Ruby Installations](https://github.com/remomueller/documentation/blob/master/windows/191-removing-old-rubies.md) and [Reinstalling Ruby](https://github.com/remomueller/documentation/blob/master/windows/130-ruby.md) and particularly making sure to select **"Add Ruby to Path"** when the installer prompts you to check a series of checkmarks.
 
 
 ### Command Prompt "Undefined Method activate_bin_path" when launching a gem 
