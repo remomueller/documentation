@@ -8,8 +8,8 @@ Download and compile node.js and Node Package Manager
 
 ```
 cd ~/code/source
-curl -L https://nodejs.org/dist/v6.9.4/node-v6.9.4.tar.gz | tar xvz
-cd node-v6.9.4/
+curl -L https://nodejs.org/dist/v6.10.2/node-v6.10.2.tar.gz | tar xvz
+cd node-v6.10.2/
 ./configure
 make
 sudo make install
@@ -24,7 +24,7 @@ Verify Node.js installed by typing `which node` which should return:
 Verify Node.js version by typing `node -v` which should return:
 
 ```console
-v6.9.4
+v6.10.2
 ```
 
 Verify npm installed by typing `which npm` which should return:
@@ -69,7 +69,7 @@ sudo ln -s /usr/local/bin/coffee /usr/bin/coffee
 Verify CoffeeScript version by typing `coffee -v` which should return:
 
 ```console
-CoffeeScript version 1.12.2
+CoffeeScript version 1.12.5
 ```
 
 ### Next Step
