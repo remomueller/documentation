@@ -21,10 +21,13 @@ Go to System Preferences -> Users & Groups
 
 Select `rvm` under Groups and add your user to the RVM group by selecting the checkbox next to your user name.
 
-Create (or append to) `~/.bash_profile` file the following line:
+Create (or append to) `~/.bash_profile` file the following lines:
 
 ```
 export rvmsudo_secure_path=0
+
+# Add port bin to path to include yarn and node (Node.js)
+export PATH="$PATH:/opt/local/bin"
 ```
 
 Verify RVM version
