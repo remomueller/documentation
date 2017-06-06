@@ -1,14 +1,8 @@
 ## 150 Install Rails and Bundler
 
 ```
-gem install rails --no-document
+gem install rails bundler --no-document
 ```
-
-```
-gem install bundler --no-document -v=1.14.3
-```
-
-**Note:** There is a [current issue](https://github.com/bundler/bundler/issues/5540) with the most recent version (1.14.6) of Bundler that causes bundler to not load certain libraries.
 
 If you run into this error:
 
