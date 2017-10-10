@@ -30,13 +30,13 @@ cd /tmp
 mkdir nginxplus
 cd /tmp/nginxplus
 curl -L http://www.nginx.org/download/nginx-1.12.1.tar.gz | tar xvz
-curl -L https://github.com/agentzh/headers-more-nginx-module/archive/v0.20.tar.gz --insecure | tar xvz
+curl -L https://github.com/agentzh/headers-more-nginx-module/archive/v0.32.tar.gz --insecure | tar xvz
 ```
 
 ### Start the Passenger Installer
 
 ```
-rvmsudo passenger-install-nginx-module --auto --prefix=/usr/local/nginx --nginx-source-dir=/tmp/nginxplus/nginx-1.12.1 --extra-configure-flags="--add-module=/tmp/nginxplus/headers-more-nginx-module-0.20" --languages ruby
+rvmsudo passenger-install-nginx-module --auto --prefix=/usr/local/nginx --nginx-source-dir=/tmp/nginxplus/nginx-1.12.1 --extra-configure-flags="--add-module=/tmp/nginxplus/headers-more-nginx-module-0.32" --languages ruby
 ```
 
 or manually
@@ -99,7 +99,7 @@ Extra arguments to pass to configure script:
 
 Type
 ```
---add-module=/tmp/nginxplus/headers-more-nginx-module-0.20
+--add-module=/tmp/nginxplus/headers-more-nginx-module-0.32
 ```
 
 ```console
