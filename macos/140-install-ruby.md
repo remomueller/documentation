@@ -23,19 +23,19 @@ rvmsudo rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.5.0
+rvm install 2.5.1
 ```
 
-Activate Ruby 2.5.0
+Activate Ruby 2.5.1
 
 ```
-rvm 2.5.0
+rvm 2.5.1
 ```
 
-**NOTE** You may need to create a gemset to switch to 2.5.0 if it failed during the install.
+**NOTE** You may need to create a gemset to switch to 2.5.1 if it failed during the install.
 
 ```
-rvm 2.5.0 --create
+rvm 2.5.1 --create
 ```
 
 Verify Ruby version
@@ -45,13 +45,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-darwin17]
+ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.5.0
+rvm alias create default ruby-2.5.1
 ```
 
 ### 142 Update Ruby Gems
