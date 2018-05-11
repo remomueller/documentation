@@ -4,78 +4,83 @@
 
 If you run into any errors during this guide, check the [Errors and Solutions](https://github.com/remomueller/documentation/blob/master/windows/199-errors-and-solutions.md) for the causes.
 
-### 64bit Windows 7
+### 64bit Windows 10
 
-Download Ruby 2.3.3 from http://rubyinstaller.org/downloads/
+Download Ruby+Devkit 2.4.4-1 (x64) from https://rubyinstaller.org/downloads/
 
-  [Ruby 2.3.3 (x64)](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3-x64.exe)
+[Ruby+Devkit 2.4.4-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.4-1/rubyinstaller-devkit-2.4.4-1-x64.exe)
 
-Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
+### 32bit Windows 10
 
-  [Development Kit 4.7.2 (x64)](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)
+Download Ruby+Devkit 2.4.4-1 (x86) from https://rubyinstaller.org/downloads/
 
-### 32bit Windows 7
-
-Download Ruby 2.3.3 from http://rubyinstaller.org/downloads/
-
-  [Ruby 2.3.3](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3.exe)
-
-Download DevKit 4.7.2 from http://rubyinstaller.org/downloads/
-
-  [Development Kit 4.7.2](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe)
+[Ruby+Devkit 2.4.4-1 (x86)](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.4-1/rubyinstaller-devkit-2.4.4-1-x86.exe)
 
 
-### For Both
+### Run Ruby Installer
 
-Install RubyInstaller and select
+Double-click RubyInstaller and select:
 
-- Add Ruby to Path
+- Check "I accept the License"
+- Click Next
 
-- Associate .rb and .rbw files with Ruby
+- Use default Ruby installation folder: `C:\Ruby24-x64` or `C:\Ruby24-x86`
+- Check "Add Ruby executables to your PATH"
+- Check "Associate .rb and .rbw files with this Ruby installation"
+- Check "Use UTF-8 as default external encoding."
+- Click Install
 
-Open Command Prompt and update Ruby Gem command and install Bundler
+- Check "MSYS2 development toolchain"
+- Click Next
+
+- Check "Run 'ridk install' to setup MSYS2 and development toolchain."
+- Click Finish
+
+The installation may take around 5 to 10 minutes.
+
+A RubyInstaller2 "cmd.exe" window will open up with choices. **DO NOT ENTER A NUMBER. Simply click "ENTER".**
+- Click ENTER
+
+The installation may take an additional 5 to 10 minutes. At the end is should say MSYS2 installed successfully, you can ignore other errors.
+
+- Close installer
+
+### Update RubyGems and Install Bundler
+Open Command Prompt and update RubyGems command and install Bundler
 
 ```
-gem update --system --no-document
+gem update --system --no-document 
+# Allow access (check all options) if Windows Security Alert displays.
 
 gem --version
 
-  2.6.8    # Or greater!
+  2.7.6    # Or greater!
 
 gem install bundler --no-document
+# Overwrite executable? Type "y" and hit Enter if this appears.
 
 bundle --version
 
-  Bundler version 1.13.6    # Or greater!
+  Bundler version 1.16.1    # Or greater!
 ```
 
-
-Follow instructions here to install DevKit
-
-  https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
-
-Extract DevKit to `C:\DevKit` by double clicking the downloaded executable
-
-Initialize and install DevKit
-
-```
-cd C:\DevKit
-
-ruby dk.rb init
-
-ruby dk.rb install
-```
-
-To test installation
+### Verify Installation (Optional)
+Open Command Prompt
 
 ```
 gem install rdiscount --platform=ruby --no-document
 ```
 
-You should see `Temporarily enhancing PATH to include DevKit`, type the following to confirm the gem works
+You should see `Temporarily enhancing PATH for MSYS/MINGW...`, type the following to confirm the gem works:
 
 ```
 ruby -rubygems -e "require 'rdiscount'; puts RDiscount.new('**Hello RubyInstaller**').to_html"
+```
+
+It should output:
+
+```
+<p><strong>Hello RubyInstaller</strong></p>
 ```
 
 ### Next Step
