@@ -24,28 +24,41 @@ Double-click RubyInstaller and select:
 - Check "I accept the License"
 - Click Next
 
+![Accept License](https://github.com/remomueller/documentation/raw/master/windows/screenshots/install-ruby-01.png)
+
 - Use default Ruby installation folder: `C:\Ruby24-x64` or `C:\Ruby24-x86`
 - Check "Add Ruby executables to your PATH"
 - Check "Associate .rb and .rbw files with this Ruby installation"
 - Check "Use UTF-8 as default external encoding."
 - Click Install
 
+![Installation Destination and Optional Tasks](https://github.com/remomueller/documentation/raw/master/windows/screenshots/install-ruby-02.png)
+
 - Check "MSYS2 development toolchain"
 - Click Next
+
+![Select Components](https://github.com/remomueller/documentation/raw/master/windows/screenshots/install-ruby-03.png)
+
+The installation may take around 5 to 10 minutes.
 
 - Check "Run 'ridk install' to setup MSYS2 and development toolchain."
 - Click Finish
 
-The installation may take around 5 to 10 minutes.
+![Setupe Select MSYS2](https://github.com/remomueller/documentation/raw/master/windows/screenshots/install-ruby-05.png)
+
 
 A RubyInstaller2 "cmd.exe" window will open up with choices.
 
 **DO NOT ENTER A NUMBER. Simply click "ENTER".**
 - Click ENTER
 
+![Ruby Installer 2](https://github.com/remomueller/documentation/raw/master/windows/screenshots/install-ruby-06.png)
+
 The installation may take an additional 5 to 10 minutes. At the end it should say "MSYS2 seems to be properly installed", you can ignore other errors.
 
 - Close installer
+
+![MSYS2 Properly Installed](https://github.com/remomueller/documentation/raw/master/windows/screenshots/install-ruby-10.png)
 
 ### Update RubyGems and Install Bundler
 Open Command Prompt and update RubyGems command and install Bundler
