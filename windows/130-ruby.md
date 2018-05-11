@@ -1,4 +1,4 @@
-## 130 Installing Ruby and DevKit on Windows 7
+## 130 Installing Ruby with MSYS2 on Windows 10
 
 **Important**: If you have an existing installation of Ruby, make sure you [completely remove the installation](https://github.com/remomueller/documentation/blob/master/windows/191-removing-old-rubies.md) before proceeding with the steps below. Check to see if you have `C:\DevKit` or `C:\Ruby*\` folders that may be previous installations Ruby on Windows.
 
