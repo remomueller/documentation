@@ -38,7 +38,9 @@ Double-click RubyInstaller and select:
 
 The installation may take around 5 to 10 minutes.
 
-A RubyInstaller2 "cmd.exe" window will open up with choices. **DO NOT ENTER A NUMBER. Simply click "ENTER".**
+A RubyInstaller2 "cmd.exe" window will open up with choices.
+
+**DO NOT ENTER A NUMBER. Simply click "ENTER".**
 - Click ENTER
 
 The installation may take an additional 5 to 10 minutes. At the end is should say MSYS2 installed successfully, you can ignore other errors.
