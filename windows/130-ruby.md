@@ -6,15 +6,15 @@ If you run into any errors during this guide, check the [Errors and Solutions](h
 
 ### 64bit Windows 10
 
-Download Ruby+Devkit 2.4.4-1 (x64) from https://rubyinstaller.org/downloads/
+Download Ruby+Devkit 2.5.1-1 (x64) from https://rubyinstaller.org/downloads/
 
-[Ruby+Devkit 2.4.4-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.4-1/rubyinstaller-devkit-2.4.4-1-x64.exe)
+[Ruby+Devkit 2.5.1-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-1/rubyinstaller-devkit-2.5.1-1-x64.exe)
 
 ### 32bit Windows 10
 
-Download Ruby+Devkit 2.4.4-1 (x86) from https://rubyinstaller.org/downloads/
+Download Ruby+Devkit 2.5.1-1 (x86) from https://rubyinstaller.org/downloads/
 
-[Ruby+Devkit 2.4.4-1 (x86)](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.4-1/rubyinstaller-devkit-2.4.4-1-x86.exe)
+[Ruby+Devkit 2.5.1-1 (x86)](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-1/rubyinstaller-devkit-2.5.1-1-x86.exe)
 
 
 ### Run Ruby Installer
@@ -26,7 +26,7 @@ Double-click RubyInstaller and select:
 
 ![Accept License](https://github.com/remomueller/documentation/raw/master/windows/screenshots/install-ruby-01.png)
 
-- Use default Ruby installation folder: `C:\Ruby24-x64` or `C:\Ruby24-x86`
+- Use default Ruby installation folder: `C:\Ruby25-x64` or `C:\Ruby25-x86`
 - Check "Add Ruby executables to your PATH"
 - Check "Associate .rb and .rbw files with this Ruby installation"
 - Check "Use UTF-8 as default external encoding."
@@ -76,7 +76,7 @@ gem install bundler --no-document
 
 bundle --version
 
-  Bundler version 1.16.1    # Or greater!
+  Bundler version 1.16.2    # Or greater!
 ```
 
 ### Verify Installation (Optional)
