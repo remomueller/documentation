@@ -30,7 +30,7 @@ cd /tmp
 mkdir nginxplus
 cd /tmp/nginxplus
 curl -L http://www.nginx.org/download/nginx-1.14.0.tar.gz | tar xvz
-curl -L https://github.com/agentzh/headers-more-nginx-module/archive/v0.33.tar.gz --insecure | tar xvz
+curl -L https://github.com/openresty/headers-more-nginx-module/archive/v0.33.tar.gz --insecure | tar xvz
 ```
 
 ### Start the Passenger Installer
