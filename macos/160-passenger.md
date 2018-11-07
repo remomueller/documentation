@@ -1,7 +1,7 @@
 ## 160 Install Phusion Passenger
 
 ```
-gem install passenger -v5.2.3 --no-document
+gem install passenger --no-document
 ```
 
 ### Next Step
