@@ -4,8 +4,11 @@ Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
 
 ```
 http {
-  passenger_root /usr/local/rvm/gems/ruby-2.6.0-preview3/gems/passenger-5.3.6;
+  passenger_root /usr/local/rvm/gems/ruby-2.6.0-preview3/gems/passenger-6.0.0;
   passenger_ruby /usr/local/rvm/gems/ruby-2.6.0-preview3/wrappers/ruby;
+
+  # Disable anonymous telemetry reporting.
+  passenger_disable_anonymous_telemetry off;
 
   # Allow for up to 10 megabyte uploads
   include       mime.types;
