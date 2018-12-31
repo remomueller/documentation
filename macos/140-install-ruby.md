@@ -23,13 +23,13 @@ rvmsudo rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.6.0-rc2
+rvm install 2.6.0
 ```
 
-Activate Ruby 2.6.0-rc2
+Activate Ruby 2.6.0
 
 ```
-rvm 2.6.0-rc2
+rvm 2.6.0
 ```
 
 Verify Ruby version
@@ -39,13 +39,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.6.0rc2 (2018-12-15 trunk 66408) +JIT [x86_64-darwin18]
+ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-darwin18]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.6.0-rc2
+rvm alias create default ruby-2.6.0
 ```
 
 ### 142 Update Ruby Gems
