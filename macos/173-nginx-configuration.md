@@ -42,12 +42,10 @@ http {
   }
 
   server {
-    listen      443;
-    # listen 443 ssl;
+    listen      443 ssl;
 
     server_name _;
 
-    ssl                  on;
     ssl_certificate      cert.pem;
     ssl_certificate_key  cert.key;
 
