@@ -22,7 +22,7 @@ need configuration options.
 If you get the above error while attempting to install the pg gem, then you may need to install pg manually:
 
 ```
-gem install pg --no-document -- --with-pg-config="/Library/PostgreSQL/9.3/bin/pg_config"
+gem install pg --no-document -- --with-pg-config="/Library/PostgreSQL/10/bin/pg_config"
 ```
 
 Note that the location depends on which version of PostgreSQL you have installed. (The above is for the enterprisedb 9.3 install)
