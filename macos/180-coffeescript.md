@@ -38,6 +38,12 @@ Should return:
 v10.15.3
 ```
 
+Update npm:
+
+```console
+sudo npm install -g npm
+```
+
 Verify npm installed by typing
 
 ```
@@ -59,7 +65,7 @@ npm -v
 Should return:
 
 ```console
-6.5.0
+6.9.0
 ```
 
 ### 182 CoffeeScript
