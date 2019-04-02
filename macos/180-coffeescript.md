@@ -7,8 +7,8 @@ Download and compile node.js and Node Package Manager
 
 ```
 cd ~/code/source
-curl -L https://nodejs.org/dist/v10.15.0/node-v10.15.0.tar.gz | tar xvz
-cd node-v10.15.0/
+curl -L https://nodejs.org/dist/v10.15.3/node-v10.15.3.tar.gz | tar xvz
+cd node-v10.15.3/
 ./configure
 make
 sudo make install
@@ -35,7 +35,7 @@ node -v
 Should return:
 
 ```console
-v10.15.0
+v10.15.3
 ```
 
 Verify npm installed by typing
