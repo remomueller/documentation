@@ -9,13 +9,13 @@ rvmsudo rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.3.3
+rvm install 2.6.3
 ```
 
-Activate Ruby 2.3.3
+Activate Ruby 2.6.3
 
 ```
-rvm 2.3.3
+rvm 2.6.3
 ```
 
 Verify Ruby version
@@ -25,13 +25,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-linux]
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.3.3
+rvm alias create default ruby-2.6.3
 ```
 
 ### 142 Update Ruby Gems
