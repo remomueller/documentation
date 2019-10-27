@@ -21,6 +21,12 @@ Go to System Preferences -> Users & Groups
 
 Select `rvm` under Groups and add your user to the RVM group by selecting the checkbox next to your user name.
 
+Append the following to `~/.zshrc` if it didn't get added automatically:
+
+```
+[[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm"
+```
+
 Create (or append to) `~/.bash_profile` file the following lines:
 
 ```
