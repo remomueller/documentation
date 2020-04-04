@@ -41,7 +41,7 @@ Verify RVM version
 Type `rvm --version`
 
 ```console
-rvm 1.29.7 (latest)
+rvm 1.29.10 (latest)
 ```
 
 In case rvm is not recognized, add the following to the bottom of `/etc/profile`
