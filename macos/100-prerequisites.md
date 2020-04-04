@@ -31,7 +31,7 @@ Make sure you have the latest version of XCode installed. XCode 8.0 or greater f
 
 [developer.apple.com/xcode](https://developer.apple.com/xcode)
 
-#### El Capitan/Sierra - Install Command Line Tools
+#### El Capitan/Sierra/Catalina - Install Command Line Tools
 
 Open Terminal and type:
 
