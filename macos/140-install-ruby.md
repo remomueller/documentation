@@ -23,13 +23,13 @@ rvmsudo rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 2.7.1
+rvm install 3.0.0
 ```
 
-Activate Ruby 2.7.1
+Activate Ruby 3.0.0
 
 ```
-rvm 2.7.1
+rvm 3.0.0
 ```
 
 Verify Ruby version
@@ -39,13 +39,13 @@ ruby -v
 ```
 
 ```console
-ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-darwin19]
+ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-darwin20]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-2.7.1
+rvm alias create default ruby-3.0.0
 ```
 
 ### 142 Update Ruby Gems
