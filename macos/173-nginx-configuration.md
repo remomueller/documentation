@@ -4,8 +4,8 @@ Edit `sudo vi /usr/local/nginx/conf/nginx.conf`
 
 ```
 http {
-  passenger_root /usr/local/rvm/gems/ruby-2.7.1/gems/passenger-6.0.4;
-  passenger_ruby /usr/local/rvm/gems/ruby-2.7.1/wrappers/ruby;
+  passenger_root /usr/local/rvm/gems/ruby-3.0.0/gems/passenger-6.0.7;
+  passenger_ruby /usr/local/rvm/gems/ruby-3.0.0/wrappers/ruby;
 
   # Disable anonymous telemetry reporting.
   passenger_disable_anonymous_telemetry off;
