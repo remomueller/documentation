@@ -23,13 +23,13 @@ rvmsudo rvm requirements
 ### 141 Install Ruby using RVM
 
 ```
-rvm install 3.0.1
+rvm install ruby-3.1.0-preview1
 ```
 
-Activate Ruby 3.0.1
+Activate Ruby 3.1.0-preview1
 
 ```
-rvm 3.0.1
+rvm 3.1.0-preview1
 ```
 
 Verify Ruby version
@@ -39,13 +39,13 @@ ruby -v
 ```
 
 ```console
-ruby 3.0.1p64 (2021-04-05 revision 0fb782ee38) [x86_64-darwin20]
+ruby 3.1.0preview1 (2021-11-09 master 5a3b2e6141) [x86_64-darwin20]
 ```
 
 Set default Ruby
 
 ```
-rvm alias create default ruby-3.0.1
+rvm alias create default ruby-3.1.0-preview1
 ```
 
 ### 142 Update Ruby Gems
