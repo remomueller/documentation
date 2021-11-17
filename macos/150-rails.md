@@ -1,6 +1,10 @@
 ## 150 Install Rails
 
 ```
+gem install bundler --no-document
+```
+
+```
 gem install rails --no-document
 ```
 
