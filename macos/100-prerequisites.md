@@ -1,6 +1,6 @@
 ## 100 Prerequisites
 Instructions for running on your macOS box.
-Most recently tested on Apple macOS Sierra 10.12
+Most recently tested on Apple macOS Monterey 12.0.1
 
 Click Apple Logo in top left of screen and click **About This Mac**
 
